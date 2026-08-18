@@ -3,62 +3,128 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Gospel Days 2025 - Olsztyn</title>
+<title>Gospel Days 2026 - Olsztyn</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link
 href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
 rel="stylesheet"
 />
 <style>
-body {
-font-family: "Poppins", sans-serif;
+:root {
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Layered shadows: a tight contact shadow plus a wide soft one, tinted
+     blue so cards sit on the gradient instead of floating in grey. */
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04),
+    0 12px 32px -14px rgba(30, 64, 175, 0.28);
+  --shadow-lift: 0 2px 4px rgba(15, 23, 42, 0.05),
+    0 26px 52px -18px rgba(30, 64, 175, 0.38);
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
 .gradient-bg {
-background: linear-gradient(
-180deg,
-#f0fdf4 0%,
-#dcfce7 15%,
-#bbf7d0 30%,
-#86efac 45%,
-#4ade80 60%,
-#3b82f6 80%,
-#1d4ed8 100%
-);
-min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #f0fdf4 0%,
+    #dcfce7 15%,
+    #bbf7d0 30%,
+    #86efac 45%,
+    #4ade80 60%,
+    #3b82f6 80%,
+    #1d4ed8 100%
+  );
+  min-height: 100vh;
 }
 .gradient-text {
-background: linear-gradient(135deg, #1e40af, #2563eb, #3b82f6);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  background: linear-gradient(135deg, #1e40af, #2563eb, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .card-gradient {
-background: linear-gradient(
-135deg,
-rgba(255, 255, 255, 0.95) 0%,
-rgba(240, 249, 255, 0.9) 100%
-);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(59, 130, 246, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.97) 0%,
+    rgba(240, 248, 255, 0.92) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
 }
 .testimonial-card {
-background: linear-gradient(
-135deg,
-rgba(255, 255, 255, 0.9) 0%,
-rgba(240, 249, 255, 0.7) 100%
-);
-border: 1px solid rgba(59, 130, 246, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.94) 0%,
+    rgba(240, 248, 255, 0.78) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
+/* Doubled selectors so these beat Tailwind's single-class shadow-lg/xl/2xl,
+   which the CDN injects at runtime. */
+.card-gradient.card-gradient,
+.testimonial-card.testimonial-card {
+  box-shadow: var(--shadow-card);
+}
+
 .hover-lift {
-transition: all 0.3s ease;
+  transition: transform 0.4s var(--ease-out), box-shadow 0.4s var(--ease-out);
 }
 .hover-lift:hover {
-transform: translateY(-2px);
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px);
 }
+.hover-lift.hover-lift:hover {
+  box-shadow: var(--shadow-lift);
+}
+
+/* Location pill on the event cards */
+.event-place {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
 .smooth-scroll {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.5);
+  outline-offset: 3px;
+}
+::selection {
+  background: rgba(37, 99, 235, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .hover-lift:hover {
+    transform: none;
+  }
 }
 </style>
 </head>
@@ -79,7 +145,7 @@ class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-f
 <div class="relative max-w-4xl mx-auto">
 <img
 src="https://lh3.googleusercontent.com/d/1tB5uZ9gKkOC5wPU4ADXpQR4Bw9EU-mA2"
-alt="Gospel Days 2025"
+alt="Gospel Days 2026"
 class="w-full h-auto rounded-3xl shadow-2xl border-4 border-blue-200 hover-lift transition-all duration-300"
 style="background: transparent"
 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
@@ -92,14 +158,14 @@ style="display: none"
 <h1
 class="text-4xl md:text-6xl font-bold gradient-text text-center drop-shadow-lg"
 >
-GOSPEL DAYS 2025
+GOSPEL DAYS 2026
 </h1>
 </div>
 </div>
 <h1
 class="mt-8 text-4xl md:text-6xl font-extrabold gradient-text text-center drop-shadow-lg tracking-tight"
 >
-GOSPEL DAYS 2025
+GOSPEL DAYS 2026
 </h1>
 <p
 class="mt-4 text-lg md:text-2xl text-blue-700 font-semibold text-center max-w-2xl mx-auto"
@@ -114,13 +180,7 @@ class="mt-4 text-lg md:text-2xl text-blue-700 font-semibold text-center max-w-2x
 id="eventLocation"
 class="text-2xl md:text-3xl font-bold gradient-text text-center"
 >
-Nabożeństwo
-</div>
-<div
-id="eventLocation"
-class="text-lg md:text-xl font-semibold text-blue-700 text-center"
->
-📍 Gietkowska 10D, Olsztyn
+Nabożeństwa i wydarzenia
 </div>
 </div>
 <!-- Event Times: all blocks same width, stacked in one column -->
@@ -129,14 +189,30 @@ class="text-lg md:text-xl font-semibold text-blue-700 text-center"
 class="bg-gradient-to-r from-blue-100 to-sky-100 p-6 rounded-xl shadow-md border border-blue-200 w-full"
 >
 <div class="text-center">
+<div class="event-place text-blue-800 font-semibold text-sm mb-3">
+📍 Targ Rybny, Olsztyn
+</div>
 <div class="text-blue-700 font-semibold text-lg mb-1">
+29–30 sierpnia
+</div>
+<div class="text-3xl font-extrabold text-blue-900">15:00</div>
+</div>
+</div>
+<div
+class="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-xl shadow-md border border-purple-200 w-full"
+>
+<div class="text-center">
+<div class="event-place text-purple-800 font-semibold text-sm mb-3">
+📍 Gietkowska 10I, Olsztyn
+</div>
+<div class="text-purple-700 font-semibold text-lg mb-1">
 W każdą niedzielę
 </div>
-<div class="text-3xl font-extrabold text-blue-900">11:00</div>
+<div class="text-3xl font-extrabold text-purple-900">11:00</div>
 </div>
 </div>
 </div>
-<div class="mt-6 text-center text-gray-600 text-sm">
+<div id="eventFooterNote" class="mt-6 text-center text-gray-600 text-sm">
 Zapraszamy na wspólne nabożeństwo – otwarte dla każdego!
 </div>
 </div>
@@ -1532,8 +1608,7 @@ class="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-f
 <div class="text-center">
 <div class="card-gradient rounded-xl p-6 shadow-lg hover-lift">
 <p class="text-xl font-semibold text-gray-800">
-              📍 Gietkowska 10D, 10-041 Olsztyn
-              📍 Gietkowska 10D, 10-170 Olsztyn
+              📍 Gietkowska 10I, 10-170 Olsztyn
 </p>
 <p class="text-blue-600 font-semibold mt-2">Twoja Przystań ⚓</p>
 </div>
@@ -1586,7 +1661,9 @@ let currentLanguage = "pl";
 const translations = {
 pl: {
 langButton: "🇬🇧 English",
-eventLocation: "📍 Targ Rybny, Olsztyn",
+eventLocation: "Nabożeństwa i wydarzenia",
+eventFooterNote:
+"Zapraszamy na wspólne nabożeństwo – otwarte dla każdego!",
 featuredVerse:
 '„Przyjdźcie do Mnie wszyscy, którzy jesteście spracowani i obciążeni, a Ja wam dam odpocznienie."',
 featuredVerseRef: "– Jezus (Ewangelia Mateusza 11:28)",
@@ -1732,16 +1809,18 @@ bibleQuote:
 '„Łaską bowiem jesteście zbawieni przez wiarę. A to pochodzi nie od was, lecz jest darem Boga: nie z uczynków, aby się nikt nie chlubił."',
 bibleQuoteRef: "– Efezjan 2:8-9",
 eventTimes: `
-     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-4 rounded-xl shadow-md border border-blue-200">
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-6 rounded-xl shadow-md border border-blue-200 w-full">
      <div class="text-center">
-     <div class="text-blue-700 font-semibold text-lg mb-1">15 sierpnia</div>
-     <div class="text-2xl font-bold text-blue-900">15:00</div>
+     <div class="event-place text-blue-800 font-semibold text-sm mb-3">📍 Targ Rybny, Olsztyn</div>
+     <div class="text-blue-700 font-semibold text-lg mb-1">29–30 sierpnia</div>
+     <div class="text-3xl font-extrabold text-blue-900">15:00</div>
      </div>
      </div>
-     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-4 rounded-xl shadow-md border border-purple-200">
+     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-xl shadow-md border border-purple-200 w-full">
      <div class="text-center">
-     <div class="text-purple-700 font-semibold text-lg mb-1">23-24 sierpnia</div>
-     <div class="text-2xl font-bold text-purple-900">11:00</div>
+     <div class="event-place text-purple-800 font-semibold text-sm mb-3">📍 Gietkowska 10I, Olsztyn</div>
+     <div class="text-purple-700 font-semibold text-lg mb-1">W każdą niedzielę</div>
+     <div class="text-3xl font-extrabold text-purple-900">11:00</div>
      </div>
      </div>
      `,
@@ -1912,7 +1991,9 @@ kamilUrbanowiczTestimony: `"Na początku chciałbym zburzyć pewien dystans któ
 },
 en: {
 langButton: "🇵🇱 Polski",
-eventLocation: "📍 Fish Market, Olsztyn",
+eventLocation: "Services & Events",
+eventFooterNote:
+"Join us for the service – everyone is welcome!",
 
 featuredVerse:
 '"Come to me, all who labor and are heavy laden, and I will give you rest."',
@@ -2059,16 +2140,18 @@ bibleQuote:
 '"For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."',
 bibleQuoteRef: "– Ephesians 2:8-9",
 eventTimes: `
-     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-4 rounded-xl shadow-md border border-blue-200">
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-6 rounded-xl shadow-md border border-blue-200 w-full">
      <div class="text-center">
-     <div class="text-blue-700 font-semibold text-lg mb-1">August 15</div>
-     <div class="text-2xl font-bold text-blue-900">3:00 PM</div>
+     <div class="event-place text-blue-800 font-semibold text-sm mb-3">📍 Fish Market, Olsztyn</div>
+     <div class="text-blue-700 font-semibold text-lg mb-1">August 29–30</div>
+     <div class="text-3xl font-extrabold text-blue-900">3:00 PM</div>
      </div>
      </div>
-     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-4 rounded-xl shadow-md border border-purple-200">
+     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-xl shadow-md border border-purple-200 w-full">
      <div class="text-center">
-     <div class="text-purple-700 font-semibold text-lg mb-1">August 23-24</div>
-     <div class="text-2xl font-bold text-purple-900">11:00 AM</div>
+     <div class="event-place text-purple-800 font-semibold text-sm mb-3">📍 Gietkowska 10I, Olsztyn</div>
+     <div class="text-purple-700 font-semibold text-lg mb-1">Every Sunday</div>
+     <div class="text-3xl font-extrabold text-purple-900">11:00 AM</div>
      </div>
      </div>
      `,
@@ -2223,6 +2306,8 @@ const t = translations[currentLanguage];
 document.getElementById("langButton").textContent = t.langButton;
 document.getElementById("eventLocation").textContent = t.eventLocation;
 document.getElementById("eventTimes").innerHTML = t.eventTimes;
+document.getElementById("eventFooterNote").textContent =
+t.eventFooterNote;
 document.getElementById("featuredVerse").textContent = t.featuredVerse;
 document.getElementById("featuredVerseRef").textContent =
 t.featuredVerseRef;
@@ -2958,6 +3043,16 @@ const currentVerse = currentVerses[currentVerseIndex];
 verseElement.textContent = `"${currentVerse.text}"`;
 referenceElement.textContent = `– ${currentVerse.reference}`;
 }
+
+// Render from the translations object on load so the static markup
+// and the translations can never drift out of sync.
+window.addEventListener("DOMContentLoaded", () => {
+try {
+updateContent();
+} catch (err) {
+console.error("updateContent failed on load", err);
+}
+});
 
 // Initialize with random verse on page load
 window.addEventListener("load", () => {
