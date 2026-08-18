@@ -1,611 +1,3012 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gospel Days 2026 - Olsztyn</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
-        background-color: #f5f5f7;
-      }
-      .gradient-bg {
-        background: linear-gradient(135deg, #ffffff 0%, #f5f5f7 100%);
-        min-height: 100vh;
-      }
-      .gradient-text {
-        background: linear-gradient(135deg, #1d1d1f, #555555);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-      .card-glass {
-        background: rgba(255, 255, 255, 0.97);
-        backdrop-filter: blur(20px);
-        border: 1px solid rgba(0, 0, 0, 0.08);
-        border-radius: 20px;
-      }
-      .hover-lift {
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      .hover-lift:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-      }
-      .smooth-scroll {
-        scroll-behavior: smooth;
-      }
-      .apple-button {
-        background: linear-gradient(135deg, #555555, #1d1d1f);
-        color: white;
-        transition: all 0.3s ease;
-        font-weight: 500;
-        letter-spacing: 0.3px;
-      }
-      .apple-button:hover {
-        transform: scale(1.02);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-      }
-      .event-highlight {
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
-        border-left: 4px solid #1d1d1f;
-      }
-    </style>
-  </head>
-  <body class="gradient-bg min-h-screen smooth-scroll">
-    <!-- Language Switcher -->
-    <div class="fixed top-6 right-6 z-50">
-      <button
-        onclick="toggleLanguage()"
-        class="apple-button px-6 py-2 rounded-full shadow-lg hover-lift"
-      >
-        <span id="langButton">🇬🇧 English</span>
-      </button>
-    </div>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gospel Days 2025 - Olsztyn</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+rel="stylesheet"
+/>
+<style>
+body {
+font-family: "Poppins", sans-serif;
+}
+.gradient-bg {
+background: linear-gradient(
+180deg,
+#f0fdf4 0%,
+#dcfce7 15%,
+#bbf7d0 30%,
+#86efac 45%,
+#4ade80 60%,
+#3b82f6 80%,
+#1d4ed8 100%
+);
+min-height: 100vh;
+}
+.gradient-text {
+background: linear-gradient(135deg, #1e40af, #2563eb, #3b82f6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.card-gradient {
+background: linear-gradient(
+135deg,
+rgba(255, 255, 255, 0.95) 0%,
+rgba(240, 249, 255, 0.9) 100%
+);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(59, 130, 246, 0.2);
+}
+.testimonial-card {
+background: linear-gradient(
+135deg,
+rgba(255, 255, 255, 0.9) 0%,
+rgba(240, 249, 255, 0.7) 100%
+);
+border: 1px solid rgba(59, 130, 246, 0.2);
+}
+.hover-lift {
+transition: all 0.3s ease;
+}
+.hover-lift:hover {
+transform: translateY(-2px);
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.smooth-scroll {
+scroll-behavior: smooth;
+}
+</style>
+</head>
+<body class="gradient-bg min-h-screen smooth-scroll">
+<!-- Language Switcher -->
+<div class="fixed top-4 right-4 z-50">
+<button
+onclick="toggleLanguage()"
+class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover-lift"
+>
+<span id="langButton">🇬🇧 English</span>
+</button>
+</div>
 
-    <!-- Header -->
-    <header class="pt-20 pb-16 px-4">
-      <div class="max-w-5xl mx-auto">
-        <!-- Logo/Image -->
-        <div class="mb-12">
-          <div class="relative">
-            <img
-              src="https://lh3.googleusercontent.com/d/1tB5uZ9gKkOC5wPU4ADXpQR4Bw9EU-mA2"
-              alt="Gospel Days 2026"
-              class="w-full h-auto rounded-3xl shadow-lg hover-lift transition-all duration-300"
-              style="background: transparent"
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-            />
-            <div
-              class="w-full h-64 bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl shadow-lg flex flex-col items-center justify-center text-gray-700 absolute top-0 left-0"
-              style="display: none"
-            >
-              <div class="text-6xl mb-4">🌅</div>
-              <h1 class="text-4xl md:text-5xl font-bold text-center drop-shadow-lg">
-                GOSPEL DAYS 2026
-              </h1>
-            </div>
-          </div>
-        </div>
+<!-- Header -->
+<header class="text-center py-16 px-4">
+<div class="mb-8">
+<div class="relative max-w-4xl mx-auto">
+<img
+src="https://lh3.googleusercontent.com/d/1tB5uZ9gKkOC5wPU4ADXpQR4Bw9EU-mA2"
+alt="Gospel Days 2025"
+class="w-full h-auto rounded-3xl shadow-2xl border-4 border-blue-200 hover-lift transition-all duration-300"
+style="background: transparent"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-64 bg-gradient-to-br from-blue-200 via-sky-200 to-cyan-200 rounded-2xl shadow-xl flex flex-col items-center justify-center text-gray-700 absolute top-0 left-0"
+style="display: none"
+>
+<div class="text-6xl mb-4">🌅</div>
+<h1
+class="text-4xl md:text-6xl font-bold gradient-text text-center drop-shadow-lg"
+>
+GOSPEL DAYS 2025
+</h1>
+</div>
+</div>
+<h1
+class="mt-8 text-4xl md:text-6xl font-extrabold gradient-text text-center drop-shadow-lg tracking-tight"
+>
+GOSPEL DAYS 2025
+</h1>
+<p
+class="mt-4 text-lg md:text-2xl text-blue-700 font-semibold text-center max-w-2xl mx-auto"
+></p>
+</div>
 
-        <!-- Main Title -->
-        <div class="text-center mb-12">
-          <h1 class="text-5xl md:text-7xl font-bold gradient-text tracking-tight leading-tight">
-            Gospel Days
-          </h1>
-          <p class="text-xl md:text-2xl text-gray-600 mt-4 font-light">2026 Olsztyn</p>
-        </div>
+<!-- Event Info -->
+<div class="max-w-2xl mx-auto mb-8">
+<div class="card-gradient rounded-2xl p-8 shadow-xl hover-lift">
+<div class="flex flex-col items-center gap-2 mb-6">
+<div
+id="eventLocation"
+class="text-2xl md:text-3xl font-bold gradient-text text-center"
+>
+Nabożeństwo
+</div>
+<div
+id="eventLocation"
+class="text-lg md:text-xl font-semibold text-blue-700 text-center"
+>
+📍 Gietkowska 10D, Olsztyn
+</div>
+</div>
+<!-- Event Times: all blocks same width, stacked in one column -->
+<div id="eventTimes" class="flex flex-col gap-4 max-w-lg mx-auto">
+<div
+class="bg-gradient-to-r from-blue-100 to-sky-100 p-6 rounded-xl shadow-md border border-blue-200 w-full"
+>
+<div class="text-center">
+<div class="text-blue-700 font-semibold text-lg mb-1">
+W każdą niedzielę
+</div>
+<div class="text-3xl font-extrabold text-blue-900">11:00</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center text-gray-600 text-sm">
+Zapraszamy na wspólne nabożeństwo – otwarte dla każdego!
+</div>
+</div>
+</div>
 
-        <!-- Event Info Card -->
-        <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift mb-12">
-          <div class="space-y-6">
-            <!-- Location -->
-            <div class="border-b border-gray-100 pb-6">
-              <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-                Lokalizacja
-              </h2>
-              <p class="text-2xl font-semibold text-gray-900">📍 Targ Rybny 29-30</p>
-              <p class="text-lg text-gray-600 mt-1">Gietkowska 10i, Olsztyn</p>
-            </div>
+<!-- Featured Bible Verse -->
+<div class="max-w-3xl mx-auto">
+<div class="card-gradient rounded-2xl p-6 md:p-8 shadow-lg hover-lift">
+<blockquote
+id="featuredVerse"
+class="text-xl md:text-2xl font-light text-gray-700 italic mb-4 leading-relaxed"
+>
+„Przyjdźcie do Mnie wszyscy, którzy jesteście spracowani i
+obciążeni, a Ja wam dam odpocznienie."
+</blockquote>
+<cite
+id="featuredVerseRef"
+class="text-lg text-blue-600 font-semibold"
+>
+– Jezus (Ewangelia Mateusza 11:28)
+</cite>
+</div>
+</div>
+</header>
 
-            <!-- Dates -->
-            <div class="border-b border-gray-100 pb-6">
-              <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-                Daty
-              </h2>
-              <p class="text-2xl font-semibold text-gray-900">29-30 sierpnia 2026</p>
-            </div>
+<!-- Main Content -->
+<main class="max-w-4xl mx-auto px-6 pb-16">
+<!-- Main Message -->
+<section
+class="card-gradient rounded-3xl p-8 md:p-12 mb-16 shadow-xl hover-lift"
+>
+<div
+id="mainContent"
+class="text-gray-700 leading-relaxed space-y-6 text-lg"
+>
+<p class="text-xl font-medium text-gray-800">
+„Jesteśmy ludźmi, którzy odkryli, że życie z Bogiem naprawdę ma
+sens.
+</p>
 
-            <!-- Regular Services -->
-            <div>
-              <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-                Regularne Nabożeństwa
-              </h2>
-              <div class="bg-gray-50 rounded-lg p-4">
-                <p class="text-lg font-medium text-gray-900">W każdą niedzielę o 11:00</p>
-                <p class="text-sm text-gray-600 mt-2">
-                  Zapraszamy na wspólne nabożeństwo – otwarte dla każdego!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+<p>
+Gospel Days to przestrzeń, którą stworzyliśmy z serca – dla każdego,
+kto szuka sensu, relacji, nadziei i wsparcia.
+</p>
 
-        <!-- Featured Verse -->
-        <div class="card-glass rounded-2xl p-8 md:p-12 shadow-lg hover-lift mb-12">
-          <blockquote class="text-2xl md:text-3xl font-light text-gray-800 italic mb-6 leading-relaxed">
-            „Przyjdźcie do Mnie wszyscy, którzy jesteście spracowani i obciążeni, a Ja wam dam odpocznienie."
-          </blockquote>
-          <cite class="text-lg text-gray-600 font-medium">
-            – Jezus (Ewangelia Mateusza 11:28)
-          </cite>
-        </div>
-      </div>
-    </header>
+<p>
+Wiemy, że wielu z nas doświadczyło trudnych sytuacji w życiu,
+zawodów, bólu, zniechęcenia. Może ktoś Cię zranił, a może Ty kogoś.
+Może czułeś się oceniony, niezrozumiany, pominięty, a może niszczy
+Cię wstyd czy nieprzebaczenie.
+</p>
 
-    <!-- Main Content -->
-    <main class="max-w-5xl mx-auto px-4 pb-16">
-      <!-- Main Message -->
-      <section class="card-glass rounded-2xl p-8 md:p-12 mb-16 shadow-lg hover-lift">
-        <div id="mainContent" class="text-gray-700 leading-relaxed space-y-6 text-lg">
-          <p class="text-xl font-semibold text-gray-900">
-            „Jesteśmy ludźmi, którzy odkryli, że życie z Bogiem naprawdę ma sens.
-          </p>
+<p class="text-xl font-semibold text-blue-800">
+Jedno wiemy na pewno- Bóg jest miłością, kocha Cię. On przyjmuje
+każdego kto do Niego się zwraca, prosi Go o pomoc, jest dostępny w
+każdym momencie życia, pośród naszych pytań słabości i historii.
+</p>
 
-          <p>
-            Gospel Days to przestrzeń, którą stworzyliśmy z serca – dla każdego,
-            kto szuka sensu, relacji, nadziei i wsparcia.
-          </p>
+<p class="font-medium text-gray-800">
+Nie trzeba być „religijnym", żeby z nami pogadać.<br />
+Nie oceniamy. Słuchamy.
+</p>
 
-          <p>
-            Wiemy, że wielu z nas doświadczyło trudnych sytuacji w życiu,
-            zawodów, bólu, zniechęcenia. Może ktoś Cię zranił, a może Ty kogoś.
-            Może czułeś się oceniony, niezrozumiany, pominięty, a może niszczy
-            Cię wstyd czy nieprzebaczenie.
-          </p>
+<p>
+Jesteśmy częścią chrześcijańskiej wspólnoty w Olsztynie – Kościoła
+<span
+class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full font-semibold shadow-lg whitespace-nowrap"
+>„Twoja&nbsp;Przystań"&nbsp;⚓</span
+>, który działa w Polsce od wielu lat i należy do szerszej rodziny
+Kościołów Ewangelicznych.
+</p>
 
-          <p class="text-xl font-semibold text-gray-900">
-            Jedno wiemy na pewno - Bóg jest miłością, kocha Cię. On przyjmuje
-            każdego kto do Niego się zwraca, prosi Go o pomoc, jest dostępny w
-            każdym momencie życia, pośród naszych pytań słabości i historii.
-          </p>
+<p>Możesz przyjść, zadać pytanie, pomilczeć, napić się herbaty.</p>
 
-          <p class="font-medium text-gray-800">
-            Nie trzeba być „religijnym", żeby z nami pogadać.<br />
-            Nie oceniamy. Słuchamy.
-          </p>
+<p class="text-xl font-bold text-blue-900 text-center">
+To jest przystań – dla Ciebie."
+</p>
+</div>
+</section>
 
-          <p>
-            Jesteśmy częścią chrześcijańskiej wspólnoty w Olsztynie – Kościoła
-            <span class="bg-gradient-to-r from-gray-800 to-gray-900 text-white px-3 py-1 rounded-full font-semibold shadow-lg whitespace-nowrap"
-              >„Twoja&nbsp;Przystań"&nbsp;⚓</span
-            >, który działa w Polsce od wielu lat i należy do szerszej rodziny
-            Kościołów Ewangelicznych.
-          </p>
+<!-- Gospel Explanation Section -->
+<section class="mb-16">
+<div class="card-gradient rounded-3xl p-8 md:p-12 shadow-xl hover-lift">
+<h2
+id="gospelTitle"
+class="text-4xl font-bold text-center mb-8 gradient-text"
+>
+Co to jest Ewangelia?
+</h2>
+<div
+id="gospelContent"
+class="text-gray-700 leading-relaxed space-y-6 text-lg"
+>
+<p>
+<strong>Ewangelia</strong> – słowo, które wielu z nas słyszało już
+nieraz. Ale czy kiedykolwiek naprawdę zastanowiłeś się, o co w
+niej tak właściwie chodzi? Może obiło Ci się kiedyś o uszy
+określenie <strong>„Dobra Nowina"</strong>. Brzmi zachęcająco,
+prawda? A jednak tak niewielu naprawdę wie, co się pod nim kryje.
+</p>
 
-          <p>Możesz przyjść, zadać pytanie, pomilczeć, napić się herbaty.</p>
+<p class="text-xl font-semibold text-purple-700 text-center">
+I właśnie dlatego tu jesteśmy — my, chrześcijanie — by się tym
+podzielić.
+</p>
 
-          <p class="text-xl font-bold text-gray-900 text-center">
-            To jest przystań – dla Ciebie."
-          </p>
-        </div>
-      </section>
+<p>
+Każdy z nas, bez wyjątku, w pewnym momencie swojego życia
+zgrzeszył. Nie ma człowieka, który nigdy nie zboczył z właściwej
+ścieżki. Choćbyśmy starali się naprawić swoje błędy dobrymi
+uczynkami, to i tak nie wystarczy… Bo tego, co już się wydarzyło,
+nie da się cofnąć.
+</p>
 
-      <!-- Gospel Explanation Section -->
-      <section class="mb-16">
-        <div class="card-glass rounded-2xl p-8 md:p-12 shadow-lg hover-lift">
-          <h2 class="text-4xl font-bold text-center mb-2 gradient-text">
-            Co to jest Ewangelia?
-          </h2>
-          <p class="text-center text-gray-600 mb-8 font-light">
-            Pierwsza Dobra Nowina z 29-30 sierpnia
-          </p>
-          <div id="gospelContent" class="text-gray-700 leading-relaxed space-y-6 text-lg">
-            <p>
-              <strong>Ewangelia</strong> – słowo, które wielu z nas słyszało już
-              nieraz. Ale czy kiedykolwiek naprawdę zastanowiłeś się, o co w
-              niej tak właściwie chodzi? Może obiło Ci się kiedyś o uszy
-              określenie <strong>„Dobra Nowina"</strong>. Brzmi zachęcająco,
-              prawda? A jednak tak niewielu naprawdę wie, co się pod nim kryje.
-            </p>
+<p>Być może słyszałeś już, co Biblia mówi o grzechu:</p>
 
-            <p class="text-xl font-semibold text-gray-900 text-center py-4">
-              I właśnie dlatego tu jesteśmy — my, chrześcijanie — by się tym
-              podzielić.
-            </p>
+<div class="bg-white/60 rounded-xl p-6 my-6">
+<blockquote class="text-gray-600 italic space-y-3">
+<p>
+„Albowiem zapłatą za grzech jest śmierć"
+<span class="text-blue-700 font-medium">(Rz 6,23)</span>
+</p>
+<p>
+„Dusza, która grzeszy, ta umrze"
+<span class="text-blue-700 font-medium">(Ez 18,20)</span>
+</p>
+<p>
+„To wasze winy są tym, co was oddziela od waszego Boga"
+<span class="text-blue-700 font-medium">(Iz 59,2)</span>
+</p>
+</blockquote>
+</div>
 
-            <p>
-              Każdy z nas, bez wyjątku, w pewnym momencie swojego życia
-              zgrzeszył. Nie ma człowieka, który nigdy nie zboczył z właściwej
-              ścieżki. Choćbyśmy starali się naprawić swoje błędy dobrymi
-              uczynkami, to i tak nie wystarczy… Bo tego, co już się wydarzyło,
-              nie da się cofnąć.
-            </p>
+<p>
+Brzmi to poważnie… Więc gdzie w tym wszystkim kryje się ta dobra
+wiadomość?
+</p>
 
-            <p>Być może słyszałeś już, co Biblia mówi o grzechu:</p>
+<p class="text-2xl font-bold text-center text-blue-900 py-4">
+Właśnie w Jezusie.
+</p>
 
-            <div class="bg-gray-50 rounded-xl p-6 my-6 border border-gray-100">
-              <blockquote class="text-gray-700 italic space-y-3">
-                <p>
-                  „Albowiem zapłatą za grzech jest śmierć"
-                  <span class="text-gray-600 font-medium">(Rz 6,23)</span>
-                </p>
-                <p>
-                  „Dusza, która grzeszy, ta umrze"
-                  <span class="text-gray-600 font-medium">(Ez 18,20)</span>
-                </p>
-                <p>
-                  „To wasze winy są tym, co was oddziela od waszego Boga"
-                  <span class="text-gray-600 font-medium">(Iz 59,2)</span>
-                </p>
-              </blockquote>
-            </div>
+<p class="text-xl font-medium text-gray-800">
+To On przyszedł na świat, wziął na siebie grzech każdego
+człowieka, zaniósł go na krzyż, oddał za nas swoje życie — i
+zmartwychwstał. To, co było nie do naprawienia po naszej stronie,
+On wziął na siebie. Zapłacił, choć sam był bez grzechu — doskonały
+Syn Boży.
+</p>
 
-            <p>
-              Brzmi to poważnie… Więc gdzie w tym wszystkim kryje się ta dobra
-              wiadomość?
-            </p>
+<p class="text-xl font-semibold text-blue-800">
+Co zatem pozostaje nam?<br />
+Zaskakująco… nic.
+</p>
 
-            <p class="text-2xl font-bold text-center text-gray-900 py-4">
-              Właśnie w Jezusie.
-            </p>
+<p>
+I nie, to nie jest żart. Łaska to dar — a daru nie da się
+„dopełnić" uczynkami, bo przestałby być darem. Można go jedynie
+przyjąć.
+</p>
 
-            <p class="text-xl font-medium text-gray-800">
-              To On przyszedł na świat, wziął na siebie grzech każdego
-              człowieka, zaniósł go na krzyż, oddał za nas swoje życie — i
-              zmartwychwstał. To, co było nie do naprawienia po naszej stronie,
-              On wziął na siebie. Zapłacił, choć sam był bez grzechu — doskonały
-              Syn Boży.
-            </p>
+<p class="text-xl font-medium text-gray-800">
+Dlatego właśnie mówimy dziś o <strong>Dobrej Nowinie</strong>. Bo
+każdy z nas, kto żył kiedyś w ciemności, został zawołany po
+imieniu — i od tej chwili może cieszyć się pełnią wolności. I to
+nie na chwilę, ale na zawsze.
+</p>
 
-            <p class="text-xl font-semibold text-gray-900">
-              Co zatem pozostaje nam?<br />
-              Zaskakująco… nic.
-            </p>
+<p>Biblia jasno pokazuje, jak można ten dar przyjąć:</p>
 
-            <p>
-              I nie, to nie jest żart. Łaska to dar — a daru nie da się
-              „dopełnić" uczynkami, bo przestałby być darem. Można go jedynie
-              przyjąć.
-            </p>
+<div
+class="bg-gradient-to-r from-blue-100 to-sky-100 rounded-xl p-6 my-6"
+>
+<blockquote
+class="text-xl font-medium text-gray-700 italic text-center"
+>
+„Jeżeli więc ustami swoimi wyznasz, że Jezus jest Panem, i w
+sercu swoim uwierzysz, że Bóg Go wskrzesił z martwych –
+osiągniesz zbawienie."
+</blockquote>
+<cite class="block text-center text-blue-700 font-semibold mt-4"
+>(Rz 10,9–10)</cite
+>
+</div>
 
-            <p class="text-xl font-medium text-gray-800">
-              Dlatego właśnie mówimy dziś o <strong>Dobrej Nowinie</strong>. Bo
-              każdy z nas, kto żył kiedyś w ciemności, został zawołany po
-              imieniu — i od tej chwili może cieszyć się pełnią wolności. I to
-              nie na chwilę, ale na zawsze.
-            </p>
+<p class="text-2xl font-bold text-center text-blue-900 py-4">
+I właśnie to jest w tym wszystkim najpiękniejsze, prawda?
+</p>
+</div>
+</div>
+</section>
 
-            <p>Biblia jasno pokazuje, jak można ten dar przyjąć:</p>
+<!-- Bible Quote -->
+<section class="text-center mb-16">
+<div class="card-gradient rounded-2xl p-8 shadow-lg hover-lift">
+<blockquote
+id="bibleQuote"
+class="text-2xl md:text-3xl font-light text-gray-700 italic mb-4"
+>
+„Łaską bowiem jesteście zbawieni przez wiarę. A to pochodzi nie od
+was, lecz jest darem Boga: nie z uczynków, aby się nikt nie
+chlubił."
+</blockquote>
+<cite id="bibleQuoteRef" class="text-lg text-blue-700 font-medium"
+>– Efezjan 2:8-9</cite
+>
+</div>
+</section>
 
-            <div class="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-6 my-6 border border-gray-100">
-              <blockquote
-                class="text-xl font-medium text-gray-700 italic text-center"
-              >
-                „Jeżeli więc ustami swoimi wyznasz, że Jezus jest Panem, i w
-                sercu swoim uwierzysz, że Bóg Go wskrzesił z martwych –
-                osiągniesz zbawienie."
-              </blockquote>
-              <cite class="block text-center text-gray-600 font-semibold mt-4"
-                >(Rz 10,9–10)</cite
-              >
-            </div>
+<!-- Prayer Encouragement Section -->
+<section class="mb-16">
+<div class="card-gradient rounded-3xl p-8 md:p-12 shadow-xl hover-lift">
+<h2
+id="prayerTitle"
+class="text-4xl font-bold text-center mb-8 gradient-text"
+>
+Nie musisz mieć wszystkich odpowiedzi
+</h2>
+<div
+id="prayerContent"
+class="text-gray-700 leading-relaxed space-y-6 text-lg text-center"
+>
+<p class="text-xl font-medium text-gray-800">
+Wystarczy, że powiesz Bogu:
+</p>
 
-            <p class="text-2xl font-bold text-center text-gray-900 py-4">
-              I właśnie to jest w tym wszystkim najpiękniejsze, prawda?
-            </p>
-          </div>
-        </div>
-      </section>
+<blockquote
+class="text-2xl md:text-3xl font-light text-blue-800 italic py-8"
+>
+„Boże, jeśli naprawdę istniejesz, pomóż mi Cię poznać"
+</blockquote>
 
-      <!-- Bible Quote -->
-      <section class="text-center mb-16">
-        <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift">
-          <blockquote class="text-2xl md:text-3xl font-light text-gray-800 italic mb-4 leading-relaxed">
-            „Łaską bowiem jesteście zbawieni przez wiarę. A to pochodzi nie od
-            was, lecz jest darem Boga: nie z uczynków, aby się nikt nie
-            chlubił."
-          </blockquote>
-          <cite class="text-lg text-gray-600 font-medium">– Efezjan 2:8-9</cite>
-        </div>
-      </section>
+<p class="text-xl font-semibold text-gray-800">
+A On odpowie na szczere serce.
+</p>
+</div>
+</div>
+</section>
 
-      <!-- Prayer Encouragement Section -->
-      <section class="mb-16">
-        <div class="card-glass rounded-2xl p-8 md:p-12 shadow-lg hover-lift">
-          <h2 class="text-4xl font-bold text-center mb-8 gradient-text">
-            Nie musisz mieć wszystkich odpowiedzi
-          </h2>
-          <div id="prayerContent" class="text-gray-700 leading-relaxed space-y-6 text-lg text-center">
-            <p class="text-xl font-medium text-gray-800">
-              Wystarczy, że powiesz Bogu:
-            </p>
+<!-- Testimonials Section -->
+<section class="mb-16">
+<h2
+id="testimonialsTitle"
+class="text-4xl font-bold text-center mb-8 gradient-text"
+>
+Świadectwa
+</h2>
+<div class="testimonial-card rounded-2xl p-8 shadow-lg hover-lift">
+<!-- Video Testimonials -->
+<h3
+id="videoTestimonialsTitle"
+class="text-2xl font-semibold text-center mb-6 text-gray-700"
+>
+Nagrania video
+</h3>
+<div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+<div class="bg-white/50 rounded-xl p-6 text-center hover-lift">
+<a
+href="https://www.youtube.com/watch?v=xrcj-FR9Z2o"
+target="_blank"
+class="block w-full h-48 bg-gradient-to-br from-red-200 to-pink-200 rounded-lg mb-4 flex items-center justify-center hover:from-red-300 hover:to-pink-300 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+>
+<div class="text-center">
+<div class="text-4xl mb-2">🎥</div>
+<span
+id="watchOnYoutube1"
+class="text-gray-700 font-semibold text-lg"
+>Obejrzyj na YouTube</span
+>
+<div id="clickToOpen1" class="text-sm text-gray-600 mt-1">
+Kliknij aby otworzyć
+</div>
+</div>
+</a>
+<p id="monikasTestimony" class="text-gray-700 font-medium">
+Świadectwo Moniki
+</p>
+</div>
+<div class="bg-white/50 rounded-xl p-6 text-center hover-lift">
+<a
+href="https://drive.google.com/file/d/1jfp7BJzCx8OTbm4XV3YXNoSvvHVdmi0w/view"
+target="_blank"
+class="block w-full h-48 bg-gradient-to-br from-blue-200 to-purple-200 rounded-lg mb-4 flex items-center justify-center hover:from-blue-300 hover:to-purple-300 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+>
+<div class="text-center">
+<div class="text-4xl mb-2">🎥</div>
+<span
+id="watchOnDrive2"
+class="text-gray-700 font-semibold text-lg"
+>Obejrzyj nagranie</span
+>
+<div id="clickToOpen2" class="text-sm text-gray-600 mt-1">
+Kliknij aby otworzyć
+</div>
+</div>
+</a>
+<p id="videoTestimony2" class="text-gray-700 font-medium">
+Świadectwo Ani
+</p>
+</div>
+<div class="bg-white/50 rounded-xl p-6 text-center hover-lift">
+<a
+href="https://drive.google.com/file/d/11oz-5wY6y0X5MamrWngbnf4INzYW_A_P/view"
+target="_blank"
+class="block w-full h-48 bg-gradient-to-br from-yellow-200 to-orange-200 rounded-lg mb-4 flex items-center justify-center hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+>
+<div class="text-center">
+<div class="text-4xl mb-2">🎥</div>
+<span
+id="watchOnDrive3"
+class="text-gray-700 font-semibold text-lg"
+>Obejrzyj nagranie</span
+>
+<div id="clickToOpen3" class="text-sm text-gray-600 mt-1">
+Kliknij aby otworzyć
+</div>
+</div>
+</a>
+<p id="videoTestimony3" class="text-gray-700 font-medium">
+Świadectwo Aurory Jaworskiej
+</p>
+</div>
+</div>
 
-            <blockquote class="text-2xl md:text-3xl font-light text-gray-900 italic py-8">
-              „Boże, jeśli naprawdę istniejesz, pomóż mi Cię poznać"
-            </blockquote>
+<!-- Świadectwo Krzysztofa - pierwsze -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Krzysztofa -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-blue-100 to-indigo-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/16nux1mzL8dQpq6vGyX_ghgyeO6l8z78j"
+alt="Krzysztof"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">Krzysztof</p>
+</div>
+</div>
+</div>
 
-            <p class="text-xl font-semibold text-gray-800">
-              A On odpowie na szczere serce.
-            </p>
-          </div>
-        </div>
-      </section>
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-blue-50 to-sky-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="krzysztofsTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Jeszcze kilka lat temu Bóg był mi obcy i zwracałem się do
+niego tylko pod wpływem wewnętrznego strachu lecz gdy on
+minął mijała także ta obłudna relacja. Nie potrzebowałem go
+bo sam byłem silny, nieśmiertelny, miałem innych bożków
+takich jak pieniądze czy używki, do czasu aż straciłem swoją
+siłę na wszystko.<br /><br />
 
-      <!-- Testimonials Section -->
-      <section class="mb-16">
-        <h2 class="text-4xl font-bold text-center mb-12 gradient-text">
-          Świadectwa
-        </h2>
-        <div class="space-y-8">
-          <!-- Video Testimonials -->
-          <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift">
-            <h3 class="text-2xl font-semibold text-center mb-8 text-gray-900">
-              Nagrania video
-            </h3>
-            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
-              <div class="bg-gray-50 rounded-xl p-6 text-center hover-lift border border-gray-100">
-                <a
-                  href="https://www.youtube.com/watch?v=xrcj-FR9Z2o"
-                  target="_blank"
-                  class="block w-full h-48 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg mb-4 flex items-center justify-center hover:from-gray-300 hover:to-gray-400 transition-all duration-300"
-                >
-                  <div class="text-center">
-                    <div class="text-4xl mb-2">🎥</div>
-                    <span class="text-gray-700 font-semibold text-lg">
-                      Obejrzyj na YouTube
-                    </span>
-                  </div>
-                </a>
-                <p class="text-gray-700 font-medium">Świadectwo Moniki</p>
-              </div>
-              <div class="bg-gray-50 rounded-xl p-6 text-center hover-lift border border-gray-100">
-                <a
-                  href="https://drive.google.com/file/d/1jfp7BJzCx8OTbm4XV3YXNoSvvHVdmi0w/view"
-                  target="_blank"
-                  class="block w-full h-48 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg mb-4 flex items-center justify-center hover:from-gray-300 hover:to-gray-400 transition-all duration-300"
-                >
-                  <div class="text-center">
-                    <div class="text-4xl mb-2">🎥</div>
-                    <span class="text-gray-700 font-semibold text-lg">
-                      Obejrzyj nagranie
-                    </span>
-                  </div>
-                </a>
-                <p class="text-gray-700 font-medium">Świadectwo Ani</p>
-              </div>
-              <div class="bg-gray-50 rounded-xl p-6 text-center hover-lift border border-gray-100">
-                <a
-                  href="https://drive.google.com/file/d/11oz-5wY6y0X5MamrWngbnf4INzYW_A_P/view"
-                  target="_blank"
-                  class="block w-full h-48 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg mb-4 flex items-center justify-center hover:from-gray-300 hover:to-gray-400 transition-all duration-300"
-                >
-                  <div class="text-center">
-                    <div class="text-4xl mb-2">🎥</div>
-                    <span class="text-gray-700 font-semibold text-lg">
-                      Obejrzyj nagranie
-                    </span>
-                  </div>
-                </a>
-                <p class="text-gray-700 font-medium">Świadectwo Aurory Jaworskiej</p>
-              </div>
-            </div>
-          </div>
+Wszystko wokół mnie nie było już dla mnie ważne. Ani moja
+rodzina ani ja sam nie mówiąc o jakichkolwiek relacjach z
+innymi. Wtedy też uważałem, że chyba jednak Boga nie ma, a
+ja jestem tak złą osobą, która niszczy wszystko co ją otacza
+i krzywdzi najbliższych, że lepiej będzie umrzeć niż się
+męczyć życiem.<br /><br />
 
-          <!-- Krzysztof's Testimony -->
-          <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift">
-            <div class="grid md:grid-cols-3 gap-8">
-              <div class="md:col-span-1">
-                <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden h-72 shadow-md">
-                  <img
-                    src="https://lh3.googleusercontent.com/d/16nux1mzL8dQpq6vGyX_ghgyeO6l8z78j"
-                    alt="Krzysztof"
-                    class="w-full h-full object-cover"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                  />
-                  <div
-                    class="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex flex-col items-center justify-center text-gray-600"
-                    style="display: none"
-                  >
-                    <div class="text-4xl mb-2">👤</div>
-                    <p class="text-sm font-medium text-center">Krzysztof</p>
-                  </div>
-                </div>
-              </div>
+Doszedłem do tak wielkiego muru że wydawało mi się iż jest
+on nie do rozbicia przez nikogo i znałem już nawet datę
+swojej śmierci. Czułem wielki zawód sobą jako ojcem dwóch
+cudownych córek, że nie dałem rady wychować ich tak jak
+zawsze mówiłem że tego chcę.<br /><br />
 
-              <div class="md:col-span-2">
-                <div class="bg-gray-50 rounded-lg p-6 max-h-80 overflow-y-auto border border-gray-100">
-                  <p class="text-gray-700 text-sm leading-relaxed text-left">
-                    "Jeszcze kilka lat temu Bóg był mi obcy i zwracałem się do
-                    niego tylko pod wpływem wewnętrznego strachu lecz gdy on
-                    minął mijała także ta obłudna relacja. Nie potrzebowałem go
-                    bo sam byłem silny, nieśmiertelny, miałem innych bożków
-                    takich jak pieniądze czy używki, do czasu aż straciłem swoją
-                    siłę na wszystko.<br /><br />
+I wtedy chyba pierwszy raz w życiu myśląc o swoim życiu, tym
+że byłem kiedyś szczęśliwy ze swoją rodziną zanim popadłem w
+uzależnienie płakałem i rozmawiałem z Bogiem. Mówiłem mu, że
+nie mam już siły aby dalej żyć, prosiłem aby czuwał nad moją
+rodziną i aby moje dziewczyny zrozumiały, że beze mnie
+będzie im lepiej.<br /><br />
 
-                    Wszystko wokół mnie nie było już dla mnie ważne. Ani moja
-                    rodzina ani ja sam nie mówiąc o jakichkolwiek relacjach z
-                    innymi. Wtedy też uważałem, że chyba jednak Boga nie ma, a
-                    ja jestem tak złą osobą, która niszczy wszystko co ją otacza
-                    i krzywdzi najbliższych, że lepiej będzie umrzeć niż się
-                    męczyć życiem.<br /><br />
+<strong
+>Ale nieeeeeee - Bóg jednak znalazł inne rozwiązanie i
+okazał swoją miłość oraz łaskę dla takiego degenerata jak
+ja.</strong
+><br /><br />
 
-                    Doszedłem do tak wielkiego muru że wydawało mi się iż jest
-                    on nie do rozbicia przez nikogo i znałem już nawet datę
-                    swojej śmierci. Czułem wielki zawód sobą jako ojcem dwóch
-                    cudownych córek, że nie dałem rady wychować ich tak jak
-                    zawsze mówiłem że tego chcę.<br /><br />
+8 października na mojej drodze życiowej pojawił się mój
+anioł stróż i od tego dnia zaczęło się wszystko zmieniać -
+była to terapeutka mojej żony jak sama o sobie mówi „jestem
+Ewa żona Adama pastora"<br /><br />
 
-                    <strong>Ale nieeeeeee - Bóg jednak znalazł inne rozwiązanie i
-                    okazał swoją miłość oraz łaskę dla takiego degenerata jak
-                    ja.</strong><br /><br />
+To dzięki Ewie i zaproszeniu na Weekend Małżonków Alma w
+2023 roku moje/nasze życie zaczęło się zmieniać. Zaczęliśmy
+się ze sobą komunikować, uczęszczać do Twojej Przystani.
+Zaczęło się pojawiać we mnie uczucie przebaczenia,
+zrozumienia i wiara w to że jednak mogę jeszcze być
+szczęśliwy.<br /><br />
 
-                    Dziękuję Bogu za moje nowe życie i chce podążać przez nie
-                    z nim."
-                  </p>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600 text-center font-medium mt-6">- Krzysztof</p>
-          </div>
+<strong
+>To co jest dziś, to jak wygląda Nasze życie, jak się nim
+cieszymy z Żoną, to droga cudów, trwająca już 20
+miesięcy.</strong
+><br /><br />
 
-          <!-- Mercedes Testimony -->
-          <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift">
-            <div class="grid md:grid-cols-3 gap-8">
-              <div class="md:col-span-1">
-                <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden h-72 shadow-md">
-                  <img
-                    src="https://lh3.googleusercontent.com/d/1xkMWGJXQjBK7RcNQdvOKdOnDRxwCbI-m"
-                    alt="Mercedes"
-                    class="w-full h-full object-cover"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                  />
-                  <div
-                    class="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex flex-col items-center justify-center text-gray-600"
-                    style="display: none"
-                  >
-                    <div class="text-4xl mb-2">👤</div>
-                    <p class="text-sm font-medium text-center">Mercedes</p>
-                  </div>
-                </div>
-              </div>
+Wiem, że to co się wydarzyło tego 8 października to nie
+przypadek. Pamiętam słowa Adama na Almie który mówił że mimo
+braku Naszej wiary w Nasze małżeństwo oni w Nas wierzą i
+kiedyś będę o tym mówił innym.<br /><br />
 
-              <div class="md:col-span-2">
-                <div class="bg-gray-50 rounded-lg p-6 max-h-80 overflow-y-auto border border-gray-100">
-                  <p class="text-gray-700 text-sm leading-relaxed text-left">
-                    "Przez ponad 20 lat byłam pogrążona w okultyzmie.
-                    Profesjonalnie zajmowałam się astrologią i miałam ponad 600
-                    klientów na całym świecie. Mimo że wiele osób mnie otaczało, czułam się coraz bardziej
-                    pusta, zagubiona i coraz gorzej.<br /><br />
+I to jest właśnie ten dzień 8 czerwca czyli 20 miesięcy
+później proroctwo Adama się wypełnia.
+<strong
+>Dziękuję Bogu za moje nowe życie i chce podążać przez nie
+z nim.</strong
+>"
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Krzysztof
+</p>
+</div>
 
-                    Moja siostra, która już była chrześcijanką, nalegała:
-                    „Musisz się modlić, czytać Biblię, chodzić do kościoła." Ale
-                    ja odmawiałam. <br /><br />
+<!-- Świadectwo duchowej podróży - wyróżnione -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div
+class="p-4 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="spiritualJourneyTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Wychowałam się w rodzinie, w której chrześcijaństwo postrzegano
+przede wszystkim jako element polskiej tradycji, a nie jako
+osobistą wiarę. Przyjęłam chrzest i Pierwszą Komunię Świętą,
+jednak w tamtym czasie nie rozumiałam, na czym polega prawdziwa
+relacja z Bogiem.<br /><br />
 
-                    <strong>Pewnego z tych dni, kiedy znów próbowałam odebrać sobie
-                    życie, wydarzyło się to, co nazywam cudem.</strong>
-                    Mój partner przyszedł w samą porę, a mój telefon zaczął dzwonić. To był nieznany numer — nagranie od Jackie.
-                    Mówiła: „Cześć, jestem Jackie z kościoła ewangelickiego w Miami. Twoja znajoma dała mi twój numer, żeby porozmawiać z
-                    tobą."<br /><br />
+Ponieważ zawsze czułam, że istnieje coś więcej, zaczęłam
+poszukiwać swojej ścieżki duchowej w innych miejscach. Czytałam
+wiele książek o duchowości, głównie związanych z tematyką
+wędrówki dusz, reinkarnacji, energii i podobnych zagadnień.
+Praktykowałam różne metody duchowe, aby nawiązać kontakt z
+„wyższą energią". Medytowałam, wprowadzałam się w różnego
+rodzaju stany transowe, by poznać swoje poprzednie wcielenia,
+uczyłam się pracy z energią Reiki oraz prowadziłam pracę ze
+snami.<br /><br />
 
-                    <strong>To było moje pierwsze spotkanie z Duchem Świętym.</strong><br /><br />
+Nic z tych doświadczeń nie potrafiło wypełnić pustki, którą w
+sobie nosiłam. Miałam wrażenie, że rozumiem coraz więcej, jednak
+mój stan psychiczny i fizyczny się pogarszał. Przez większość
+życia zmagałam się z różnego rodzaju zaburzeniami psychicznymi:
+depresją, zaburzeniami lękowymi, zaburzeniami odżywiania. Bardzo
+pragnęłam zrozumieć sens tego, co mnie spotyka, i szukałam
+rozwiązania swoich problemów w praktykach duchowych. Przynosiły
+mi one jedynie chwilową ulgę, po której następowało
+pogorszenie.<br /><br />
 
-                    Tego samego wieczoru Jackie wytłumaczyła mi, co robić, a
-                    kilka godzin później przyjęłam Jezusa Chrystusa jako swojego
-                    Pana i zbawiciela. Od tego dnia uczyła mnie modlić się,
-                    czytać Biblię i pokazała jak zacząć nowe życie."
-                  </p>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600 text-center font-medium mt-6">- Mercedes</p>
-          </div>
+W końcu spotkałam mężczyznę, który był tak samo otwarty na
+duchowość jak ja. Zajmował się pracą z energią, a ja bardzo
+szybko pozwoliłam mu prowadzić na mnie swoje terapie. Początkowo
+sesje przynosiły mi ogromną ulgę i spokój. Czułam, jak moje
+traumy z dzieciństwa oraz tłumione emocje zaczynają się
+uwalniać. Efekty były spektakularne, co sprawiało, że otwierałam
+się coraz bardziej.<br /><br />
 
-          <!-- Kasia Bobowik Testimony -->
-          <div class="card-glass rounded-2xl p-8 shadow-lg hover-lift">
-            <div class="grid md:grid-cols-3 gap-8">
-              <div class="md:col-span-1">
-                <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden h-72 shadow-md">
-                  <img
-                    src="https://lh3.googleusercontent.com/d/1srz_1fqBkxHuZJjSBUCCM2_zuD24MGKx"
-                    alt="Kasia Bobowik"
-                    class="w-full h-full object-cover"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                  />
-                  <div
-                    class="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex flex-col items-center justify-center text-gray-600"
-                    style="display: none"
-                  >
-                    <div class="text-4xl mb-2">👤</div>
-                    <p class="text-sm font-medium text-center">Kasia Bobowik</p>
-                  </div>
-                </div>
-              </div>
+Jednak po pewnym czasie wszystko zaczęło się pogarszać. Zaczęłam
+mieć koszmary, których wcześniej nigdy nie doświadczyłam w takim
+nasileniu. Te sesje sprawiały, że stawałam się coraz bardziej
+zależna od tego mężczyzny. Kiedy traktował mnie źle, nie
+potrafiłam postawić granic. Nasza relacja pogarszała się, nie
+chciałam z nim być, ale nie mogłam odejść.<br /><br />
 
-              <div class="md:col-span-2">
-                <div class="bg-gray-50 rounded-lg p-6 max-h-80 overflow-y-auto border border-gray-100">
-                  <p class="text-gray-700 text-sm leading-relaxed text-left">
-                    "Wychowałam się na wsi w tradycyjnej, polskiej,
-                    wielodzietnej rodzinie. W młodym wieku straciłam mamę. Mój
-                    tata i bracia zmagali się z uzależnieniem od alkoholu, przez
-                    co często dochodziło do awantur.<br /><br />
+W końcu dotarło do mnie, że energia, z którą pracuje ten
+mężczyzna, nie pochodzi z dobrego źródła. Poprosiłam o pomoc
+moją znajomą chrześcijankę, która pojawiła się w moim życiu
+mniej więcej w tym samym czasie co on. Czułam, że muszę wrócić
+do Kościoła, żeby oczyścić się z wpływu tych terapii.<br /><br />
 
-                    Miałam mnóstwo kompleksów i bardzo niską samoocenę. Czułam pustkę, którą
-                    próbowałam zapełnić alkoholem, papierosami, imprezami i
-                    towarzystwem.<br /><br />
+<strong
+>To był najbardziej przełomowy moment w moim życiu. Otworzyłam
+swoje serce na Jezusa i przyjęłam Go do siebie.</strong
+>
+Chrześcijaństwo przez większość mojego życia było dla mnie
+odrzucające, ale w tamtym momencie poczułam, że to jedyna
+prawda, która może mnie ocalić od całego mroku. I tak się
+stało.<br /><br />
 
-                    <strong>Kiedy mój syn zachorował i byliśmy w szpitalu, usłyszałam
-                    Ewangelię o życiu, śmierci i zmartwychwstaniu Pana Jezusa
-                    od mojej znajomej – żony pastora. Dostałam Nowy Testament,
-                    który zaczęłam czytać. Bóg zaczął do mnie realnie
-                    przemawiać przez swoje Słowo.</strong><br /><br />
+<strong
+>Jezus mnie uratował, zabrał cały mrok, który wpuściłam, i
+uleczył moje poranione serce.</strong
+>
+Dzięki Niemu odzyskałam swoją tożsamość, w końcu wiem, kim
+naprawdę jestem. Nadal trudno mi uwierzyć, że rozwiązanie było
+tak proste. Mimo że popełniłam wiele błędów, które były
+sprzeczne z Jego nauką, On przyjął mnie, wybaczył i
+zaakceptował.<br /><br />
 
-                    <strong>Poczułam się wolna, akceptowana i kochana – czego
-                    wcześniej nie znałam.</strong><br /><br />
+Dzięki Niemu każdego dnia staję się lepszym człowiekiem. Nigdy
+wcześniej nie czułam w sobie tyle miłości, którą teraz mogę
+dzielić z innymi ludźmi. Jestem dumna, że mogę nosić to światło
+w sobie. <strong>Moje życie dopiero teraz się zaczęło.</strong>"
+</p>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Świadectwo anonimowe
+</p>
+</div>
 
-                    <strong>Duch Święty przypomniał mi werset „Nie porzucę Cię ani
-                    nie opuszczę" (Hebrajczyków 13:5), który wielokrotnie
-                    podtrzymywał mnie na duchu, gdy przechodziłam przez trudne
-                    doliny życia z moimi dziećmi.</strong>"
-                  </p>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600 text-center font-medium mt-6">- Kasia Bobowik</p>
-          </div>
-        </div>
-      </section>
+<!-- Świadectwo Mercedes - wyróżnione -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Mercedes -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-purple-100 to-pink-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/1xkMWGJXQjBK7RcNQdvOKdOnDRxwCbI-m"
+alt="Mercedes"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-purple-200 to-pink-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">Mercedes</p>
+</div>
+</div>
+</div>
 
-      <!-- CTA Section -->
-      <section class="text-center mb-16">
-        <div class="card-glass rounded-2xl p-12 shadow-lg hover-lift">
-          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Jesteś zaproszony
-          </h2>
-          <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Niezależnie od tego, gdzie jesteś w swoim życiu, zapraszamy Cię do nas.
-            Gospel Days to przestrzeń dla każdego.
-          </p>
-          <button class="apple-button px-8 py-4 rounded-full text-lg shadow-lg hover-lift">
-            Dowiedz się więcej
-          </button>
-        </div>
-      </section>
-    </main>
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="mercedesTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Nazywam się Mercedes i dziś chcę Wam opowiedzieć, jak Pan
+wyratował mnie z najgłębszej otchłani i dał mi nowe
+życie.<br /><br />
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-300 py-12 px-4">
-      <div class="max-w-5xl mx-auto text-center">
-        <p class="font-light mb-2">Gospel Days 2026</p>
-        <p class="text-sm text-gray-500">
-          Kościół „Twoja Przystań" • Gietkowska 10i, Olsztyn
-        </p>
-        <p class="text-sm text-gray-500 mt-4">
-          © 2026 Gospel Days Olsztyn. Wszyscy ludzie wierzący w Jezusa Chrystusa.
-        </p>
-      </div>
-    </footer>
+Przez ponad 20 lat byłam pogrążona w okultyzmie.
+Profesjonalnie zajmowałam się astrologią i miałam ponad 600
+klientów na całym świecie. Byłam też praktykującą buddystką
+przez 18 lat. Nie wierzyłam w Boga, byłam ateistką i
+myślałam, że to, co robię, to dar duchowy. Z czasem jednak
+zrozumiałam, że ten „dar" był wykorzystywany przez
+Szatana.<br /><br />
 
-    <script>
-      function toggleLanguage() {
-        const button = document.getElementById("langButton");
-        if (button.textContent.includes("English")) {
-          button.textContent = "🇵🇱 Polski";
-          // Add English translations here if needed
-        } else {
-          button.textContent = "🇬🇧 English";
-          // Reset to Polish
-        }
-      }
-    </script>
-  </body>
+Mimo że wiele osób mnie otaczało, czułam się coraz bardziej
+pusta, zagubiona i coraz gorzej. Będąc we Włoszech popadłam
+w tak głęboką depresję, że kilka razy próbowałam odebrać
+sobie życie. Chodziłam do psychiatry, przepisano mi leki,
+ale nic nie pomagało.<br /><br />
+
+Moja siostra, która już była chrześcijanką, nalegała:
+„Musisz się modlić, czytać Biblię, chodzić do kościoła." Ale
+ja odmawiałam. Mówiłam, że nigdy nie postawię stopy w
+kościele ewangelickim, bo ludzie tam krzyczą i śpiewają.
+Wtedy powiedziała: „Dobrze — to przynajmniej czytaj Biblię."
+Tak zaczęłam, z dużym niedowierzaniem, z desperacji.<br /><br />
+
+Moja sytuacja była krytyczna. Słyszałam głosy, które
+popychały mnie do samobójstwa. Raz nawet próbowałam rzucić
+się pod samochód. W środku tego wszystkiego, pewnego dnia
+dostałam telefon od mojej przyjaciółki Marbelli z Miami.
+Zapytała, jak się mam, a ja odpowiedziałam, że źle, bardzo
+źle.<br /><br />
+
+W głębi serca szukałam czegoś. W Rzymie trudno było znaleźć
+kościół ewangeliczny. Następnego dnia Marbella poszła do
+kościoła, a kiedy wyszła zadzwoniła do mnie: „Merce,
+poznałam kobietę o imieniu Jackie. Mieszkała we Włoszech,
+mówi po włosku i ma tam kontakty. Dałam jej twój numer." Nie
+było już odwrotu — dała jej mój kontakt.<br /><br />
+
+<strong
+>Pewnego z tych dni, kiedy znów próbowałam odebrać sobie
+życie, wydarzyło się to, co nazywam cudem.</strong
+>
+Mój partner przyszedł w samą porę, otworzył drzwi i zastał
+mnie w środku tej sceny rozpaczy. Położył mnie na kanapie w
+salonie i poszedł po szklankę wody. W tym czasie mój telefon
+zaczął dzwonić. To był nieznany numer — nagranie od Jackie.
+Mówiła: „Cześć, jestem Jackie z kościoła ewangelickiego w
+Miami. Twoja znajoma dała mi twój numer, żeby porozmawiać z
+tobą."<br /><br />
+
+Odpowiedziałam jak mogłam: „Wybacz, nie mogę rozmawiać… módl
+się za mnie, właśnie mi się to przytrafiło." Ku mojemu
+zdziwieniu wysłała kolejne nagranie: „W imię Jezusa
+rozkazuję wszelkiemu duchowi śmierci, żeby natychmiast ją
+puścił, w mocy krwi Chrystusa." Nigdy czegoś takiego nie
+słyszałam. Jackie dalej wysyłała mi nagrania, modliła się z
+autorytetem, wstawiała się za moje życie. A ja płakałam,
+płakałam jak nigdy dotąd.
+<strong
+>To było moje pierwsze spotkanie z Duchem Świętym.</strong
+><br /><br />
+
+Tego samego wieczoru Jackie wytłumaczyła mi, co robić, a
+kilka godzin później przyjęłam Jezusa Chrystusa jako swojego
+Pana i zbawiciela. Od tego dnia uczyła mnie modlić się,
+czytać Biblię i pokazała jak zacząć nowe życie.<br /><br />
+
+Kilka tygodni później przyjechałam do Polski, żeby odwiedzić
+syna. Poczułam, że muszę poszukać kościoła. We Włoszech
+nigdy nie udało mi się pójść, bo wszystko było bardzo
+zamknięte. Ale tutaj, w Warszawie, znalazłam Kościół
+Hiszpański — pierwszy kościół, który odwiedziłam w życiu… i
+od tamtej pory już w nim zostałam.<br /><br />
+
+Później wróciłam do Włoch, ale już nie byłam tą samą osobą.
+<strong
+>Podjęłam decyzję, że porzucę wszystko, co mnie wiązało z
+moim dawnym życiem.</strong
+>
+Spaliłam wszystkie moje książki o astrologii — ogromną
+bibliotekę. Te, których nie mogłam spalić, porozrywałam
+nożem, żeby nikt inny ich nie mógł przeczytać. Zniszczyłam
+ołtarze buddyjskie, rozdarłam i wyrzuciłam teksty buddyzmu.
+Nawet przybiłam młotkiem małą figurkę - posążek, którą
+miałam w domu.<br /><br />
+
+Mój partner myślał, że oszalałam. Ale ja wiedziałam, co
+robię. Zapytałam go: „Chcesz się ożenić, tak czy nie? Nie
+będę dalej żyć w grzechu." Powiedział, że nie. Wtedy
+odpowiedziałam: „Ok. Odchodzę." I porzuciłam wszystko.
+Wszystko - dom, partnera, kraj, pracę. Nie miałam pojęcia,
+jak będę się utrzymywać… postąpiłam radykalnie.<br /><br />
+
+Kiedy wróciłam do Polski na stałe, trzy dni po wprowadzeniu
+się do małego studenckiego mieszkania z moim synem, Pan miał
+już dla mnie coś przygotowane. W mieście odbyła się
+konferencja, na którą przyjechali ludzie ze Stanów
+Zjednoczonych, i ja uczestniczyłam w niej w tym hiszpańskim
+kościele. Tam przeżyłam doświadczenie, które odmieniło moje
+życie na zawsze: <strong>uwolnienie duchowe.</strong
+><br /><br />
+
+Podczas tego uwolnienia poczułam piekło. To nie metafora.
+Czułam jego zapach, słyszałam głosy, czułam, jak się palę.
+Był to suchy, nie do zniesienia żar. Nie mogłam mówić ani
+oddychać — powietrza nie było, było sucho… jedyne, czego
+pragnęłam, to wody, żeby ktoś polał mnie wodą. Pamiętam, że
+pastorka mówiła: „Pali się, zdejmijcie jej sweter!" I
+rzeczywiście tak było. To było okropne, ale kluczowe.
+Poczułam na własnej skórze skąd Bóg mnie wyrwał.<br /><br />
+
+<strong
+>Tego dnia zrozumiałam, że Jezus jest wodą żywą.</strong
+>
+On jest jedynym, który może ugasić to duchowe pragnienie, tę
+wieczną udrękę. Zrozumiałam to głęboko czytając Łukasza 16,
+gdzie bogacz błaga Abrahama, by Łazarz zwilżył palec w
+wodzie i ochłodził mu język, bo jest dręczony w płomieniach.
+Ja to przeżyłam. I po tym nie było odwrotu. To, co Jezus
+chciał powiedzieć, mówiąc o tym pragnieniu, to że On jest
+wodą i nigdy nie będziemy już spragnieni.<br /><br />
+
+<strong
+>Kiedy przyjęłam Jezusa do swojego życia zostałam
+oczyszczona z tego bólu i cierpienia.</strong
+>
+Przeżyłam też uzdrowienia o których opowiem w innej części.
+Znalazłam swoje miejsce, swój kościół, powołanie, pracę i
+idealne mieszkanie. Żyję blisko rodziny, mam wspaniałych
+przyjaciół. Błogosławieństwa które przeżywam każdego dnia są
+ponad wszelkie moje wyobrażenia.
+<strong>Bóg naprawdę jest dobry.</strong>"
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">- Mercedes</p>
+</div>
+
+<!-- Drugie świadectwo Mercedes - uzdrowienie z raka (bez zdjęcia) -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div
+class="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="mercedesHealingTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Kilka tygodni temu otrzymałam wynik mammografii. Czułam
+pieczenie w lewej piersi i byłam bardzo zaniepokojona. Miałam
+sen — myślę, że Pan mnie ostrzegł — i nalegałam, żeby zrobić
+mammografię, ale nie mówili po angielsku, więc wielokrotnie
+nalegałam na syna, żeby zadzwonił… i nie dzwonił, aż w końcu
+sama poszłam. Kiedy otrzymałam raport 7 kwietnia, był po polsku
+i nic nie rozumiałam, ale Pan miał już wszystko idealnie
+ułożone.<br /><br />
+
+Mój syn pracuje w firmie zajmującej się leczeniem raka piersi
+metodami i technologiami ze Stanów Zjednoczonych. Przeszedł
+szkolenia medyczne, stale rozmawia z onkologami i dobrze zna
+cały proces. To on przeczytał raport i powiedział: „Mamo, masz
+guza o średnicy 15 milimetrów." Bardzo się zmartwił, gdy to
+przeczytał, bo wiedział dokładnie, co to oznacza.<br /><br />
+
+Następnego dnia poszliśmy do onkolog. Ona zbadała mnie fizycznie
+i potwierdziła to, co mówiła mammografia: wyczuwalna guza po
+lewej stronie. Powiedziała, że na razie nie będziemy robić
+kolejnej mammografii ani USG, tylko przejdziemy bezpośrednio do
+biopsji. Wyjaśniła, że będą musieli zrobić nacięcie około trzech
+centymetrów, pobrać próbkę, i że do tego potrzebne są obrazy z
+mammografii, aby dokładnie wiedzieć, gdzie interweniować.<br /><br />
+
+Postanowiłam nie robić biopsji w tych dniach, ponieważ miałam
+swoją służbę i wydarzenie w szkole - robiliśmy ewangelizację.
+Moja przyjaciółka przyszła do mnie do domu i modliliśmy się i
+zapytała: „Co zamierzasz zrobić z wydarzeniem dla dzieci?"
+Odpowiedziałam: „POJDĘ i nie zrobię tej biopsji aż do po tym
+wydarzeniu! Nie chcę, żeby cokolwiek ukradło mi radość malowania
+dla nich i mówienia im o Jezusie." Pato, jak zawsze,
+powiedziała: „Módlmy się…", w sobotę pastorzy modlili się dalej,
+a ja poczułam prąd przechodzący przez moje ciało… i wiedziałam,
+że stało się coś cudownego.<br /><br />
+
+Potem zrealizowałam wydarzenie z dziećmi w poniedziałek, więc
+ostatecznie we wtorek zdecydowałam się pójść na biopsję —
+postawiłam Boga na pierwszym miejscu.<br /><br />
+
+Joseph, mój syn, był ze mną i wszedł do sali, żeby zrobili mi
+biopsję. Mieliśmy ze sobą raport od lekarki onkolog, która
+wyczuła guza, i byli już gotowi. Joseph powiedział mi, że
+widział igłę — była bardzo długa — i że znieczulenie już mieli
+przygotowane… żeby pobrać próbkę.
+<strong
+>Chłopak z pracowni radiologicznej widział guz na mammografii,
+ale gdy ponownie go szukali, by pobrać biopsję, guz całkowicie
+zniknął…</strong
+>
+Chłopak nie rozumiał, co się stało, a ja mu powiedziałam:
+„Stoisz twarzą w twarz z cudem — Jezus żyje i wciąż dokonuje
+cudów". Zdezorientowany chłopak pobiegł po swoją przełożoną z
+radiologii, ona przyszła zrobić mi badanie i też nic nie
+znalazła…
+<strong
+>Powiedziała do mnie: „Pani, nie wiem, kto się za Panią modlił
+ani jak to się stało, ale zadziałało. Proszę się ubrać i wyjść
+— jest Pani zdrowa."</strong
+>
+Powiedziałam: „Jezus wciąż żyje…" Mój syn, poruszony, wszystko
+widział i słyszał, ponieważ Bóg chciał mu pokazać, że On jest
+Bogiem cudów."
+</p>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Mercedes (Świadectwo uzdrowienia)
+</p>
+</div>
+
+<!-- Świadectwo Kasi Bobowik - nowe -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Kasi -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-rose-100 to-pink-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/1srz_1fqBkxHuZJjSBUCCM2_zuD24MGKx"
+alt="Kasia Bobowik"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-rose-200 to-pink-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">Kasia Bobowik</p>
+</div>
+</div>
+</div>
+
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-rose-50 to-pink-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="kasiaBobowikTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Wychowałam się na wsi w tradycyjnej, polskiej,
+wielodzietnej rodzinie. W młodym wieku straciłam mamę. Mój
+tata i bracia zmagali się z uzależnieniem od alkoholu, przez
+co często dochodziło do awantur. Miałam tego dosyć i nie
+potrafiłam sobie z tym poradzić, dlatego wielokrotnie, będąc
+jeszcze niepełnoletnia, uciekałam z domu. Jednak musiałam
+wracać, by pomagać w gospodarstwie. W tym czasie kończyłam
+wieczorową szkołę, co jak na mój wiek było ogromnym
+wyzwaniem.<br /><br />
+
+W międzyczasie ojciec ożenił się po raz drugi i wyjechał. Ja
+znalazłam pracę i zamieszkałam na stancji. Miałam mnóstwo
+kompleksów i bardzo niską samoocenę. Czułam pustkę, którą
+próbowałam zapełnić alkoholem, papierosami, imprezami i
+towarzystwem – szczególnie w weekendy. Prowadziłam rozwiązły
+tryb życia.<br /><br />
+
+W wieku 28 lat wyszłam za mąż i urodziłam trójkę dzieci.
+<strong
+>Kiedy mój syn zachorował i byliśmy w szpitalu, usłyszałam
+Ewangelię o życiu, śmierci i zmartwychwstaniu Pana Jezusa
+od mojej znajomej – żony pastora. Dostałam Nowy Testament,
+który zaczęłam czytać. Bóg zaczął do mnie realnie
+przemawiać przez swoje Słowo.</strong
+>
+Miałam wiele pytań i na wszystkie znalazłam odpowiedzi. Tak
+zaczęła się moja relacja z żywym Bogiem. Pewnej nocy
+wyznałam Mu wszystkie swoje grzechy, a On przyszedł z
+oczyszczeniem.
+<strong
+>Poczułam się wolna, akceptowana i kochana – czego
+wcześniej nie znałam.</strong
+><br /><br />
+
+Pewnego wieczoru, gdy odwiedzili nas pastorowie, mój mąż
+także usłyszał Ewangelię, przyjął ją do serca, został
+napełniony Duchem Świętym i zaczął mówić językami (Dzieje
+Apostolskie 2:1-4).
+<strong
+>Dzięki Bogu stało się to przed tragicznym wieczorem,
+kiedy mój mąż zginął w wypadku. Miałam pewność, że spotkał
+się z Ojcem w niebie.</strong
+><br /><br />
+
+Tej nocy, zanim poznałam wiadomość, czułam ogromny ciężar i
+brak pokoju w sercu. Nie wiedziałam jeszcze o wypadku.
+Obudziłam się w środku nocy i zadzwoniłam na pogotowie,
+gdzie poinformowano mnie o tragedii i o stanie mojej córki,
+która miała jedynie kilka pęknięć dłoni. Poczułam się,
+jakbym stała nad przepaścią, ale
+<strong
+>Duch Święty przypomniał mi werset „Nie porzucę Cię ani
+nie opuszczę" (Hebrajczyków 13:5), który wielokrotnie
+podtrzymywał mnie na duchu, gdy przechodziłam przez trudne
+doliny życia z moimi dziećmi.</strong
+><br /><br />
+
+Moje dzieci przejęły rolę wsparcia, a więź, którą wtedy
+zbudowaliśmy, jest silna do dziś. W międzyczasie musiałam
+podjąć pracę za granicą, byśmy mogli się utrzymać. Nie raz
+stawałam przed wyborem: bilet na autobus czy zakupy
+spożywcze. Moje dzieci dzielnie radziły sobie z obowiązkami,
+które niejednokrotnie przerastały ich możliwości.<br /><br />
+
+<strong
+>To był bardzo trudny czas, ale widzieliśmy w nim Bożą
+rękę, prowadzenie, ochronę i cuda. Bóg dodawał nam sił na
+każdym kroku i napełniał nasze serca pokojem.</strong
+>
+Trwaliśmy w Nim, czytaliśmy Jego Słowo, a On nas umacniał.
+Bóg jest wierny i Jego obietnice są trwałe – zawsze jest
+przy mnie.<br /><br />
+
+Dziś Bóg wszystko wyprostował. Nasze relacje z dziećmi są
+jeszcze silniejsze, mieszkam w mieście, a dzięki nim mam
+piękne mieszkanie.
+<strong
+>Jestem zaangażowana w służbę Coffee House, która przynosi
+mi wiele radości, bo warto ratować tych, którzy idą na
+zatracenie. Wychodzę na ulice, rozmawiam z ludźmi, mówię o
+Panu Jezusie i zbawieniu.</strong
+>
+Słucham ich trudnych historii, modlę się za nich. Jako
+służba Coffee House wysłaliśmy kilka osób na chrześcijańską
+terapię do Łękini. Kilka osób zostało uratowanych,
+uwolnionych od alkoholu i znalazło nowy dom.<br /><br />
+
+<strong
+>Jestem Bogu bardzo wdzięczna, bo gdybym Go wcześniej nie
+poznała, prawdopodobnie złamałabym się na zawsze. Dzięki
+Niemu przeszliśmy przez wszystkie trudności i nie
+ponieśliśmy klęski. Dziś służę świadectwem i mogę wspierać
+innych.</strong
+><br /><br />
+
+„Nie złamie nadłamanej trzciny, ani nie zgasi knota tlącego
+się" (Mateusza 12:20)."
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Kasia Bobowik
+</p>
+</div>
+
+<!-- Świadectwo Karoli Koprowskiej - nowe -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Karoli -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-teal-100 to-cyan-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/1NBBUjFZ4ewhG1dYZsaoQA0NPNacuTyrn"
+alt="Karola Koprowska"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-teal-200 to-cyan-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">
+Karola Koprowska
+</p>
+</div>
+</div>
+</div>
+
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="karolKoprowskaTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Odkąd pamiętam moje życie było niekończących się
+oczekiwaniem na kolejną katastrofę. W ciągłej gotowości,
+tylko z chwilami na oddech, kiedy walczysz o utrzymanie się
+na powierzchni zanim nakryje cię kolejna fala.<br /><br />
+
+Problemy rodzinne, zaburzenia odżywiania, depresje, terapie.
+W przerwach życie, najlepsze oceny, wyciąganie się na
+powierzchnię nadludzkim wysiłkiem woli. „Normalność".<br /><br />
+
+Jestem z rodziny niewierzącej, mój kontakt z wiarą
+ograniczał się do lekcji religii i mimo, że „przyjęłam"
+sakramenty wiara kojarzyła mi się z przymusem, hipokryzją i
+rozczarowaniem. Mimo to szukałam Boga na swój sposób, tylko
+że w niewłaściwych miejscach. Szukałam prawdy, ale nawet
+jeśli wydawało mi się, że ją znajdywałam to spełnienie było
+chwilowe. Kiedy miałam 15 lat znalazłam buddyzm. Potem
+chciałam „coś naprawdę przeżyć". Uczyłam się na 200 procent,
+imprezowałam na 200 procent. Ciągle gdzieś dalej biegłam,
+myślałam że jeśli wystarczająco mocno będzie mi na czymś
+zależało to osiągnę wszystko co sobie postanowię. Jeśli
+wystarczająco dużo osiągnę, wystarczająco dużo będę nad sobą
+pracować to znajdę spokój i spełnienie, ta wieczna tortura w
+końcu się skończy. Tylko, że ten moment nigdy nie
+następował.<br /><br />
+
+Potem był szamanizm. Potem ciężka choroba, która przykuła
+mnie na pół roku do łóżka i pozbawiła całego dotychczasowego
+życia. Pewnej nocy było tak źle, że myślałam że nie dotrwam
+do rana. Pamiętam, że modliłam się wtedy, żeby przeżyć.
+Wyzdrowiałam, ale nie połączyłam faktów. To musiał przecież
+być przypadek, jakiś szczęśliwy traf, który pasował do
+mojego nowoczesnego i niezależnego życia.<br /><br />
+
+Kolejna wymagająca praca, nawrót choroby, nagła śmierć
+najbliższej osoby. Następny toksyczny związek, następne
+zmiany w karierze i miejscu zamieszkania. Wyjechałam na
+dłużej do Azji, raz, drugi, trzeci. Podróżowałam, uczyłam
+się jogi, byłam wolontariuszką. Jednak poza chwilową ulgą
+ciągle nie znajdowałam spełnienia i spokoju. Szczerze mówiąc
+byłam u kresu sił.<br /><br />
+
+<strong
+>Pewnego dnia, kiedy sufit znowu zawalił mi się na głowę,
+w kompletnej bezsilności i desperacji zawołałam do Boga,
+żeby mi pomógł.</strong
+><br /><br />
+
+Następnego dnia w drodze do innego miasta, usłyszałam o
+Jezusie i prawdziwym osobistym doświadczeniu Boga od
+dziewczyny, którą pierwszy raz w życiu spotkałam, a ona
+pierwszy raz podzieliła się kimś swoją historią o
+nawróceniu.
+<strong
+>Nagle w niewytłumaczalny sposób przyszedł spokój. Nie
+dały mi go godziny medytacji, ćwiczeń oddechowych, kontakt
+z naturą, podróże, ani kolejne desperackie próby
+poukładania sobie życia.</strong
+><br /><br />
+
+Od tamtej pory wszystko zaczęło się zmieniać. W pakiecie
+dostałam klarowność, a moje życie od drobnych po poważne
+rzeczy zaczęło się układać. Budzę się z wdzięcznością i
+radością za nowy dzień. Wróciła inspiracja i chęć do
+rozwijania swoich talentów. Nie z przymusu, żeby coś sobie
+udowodnić, ale czystej radości. Moje relacje się poprawiają,
+plany naturalnie wypełniają. Nigdy nie widziałam, żeby
+jakakolwiek ścieżka wyprostowała się tak szybko „sama" (a
+studiowałam psychoterapię).<br /><br />
+
+<strong
+>Zrozumiałam, że nie bez powodu przeżyłam to wszystko
+prawie bez szwanku, chociaż mocno poturbowana. KTOŚ zawsze
+przy mnie był, tylko ja uparcie nie chciałam tego
+widzieć.</strong
+>
+Moje życie zmieniło się, kiedy otworzyłam się na prowadzenie
+i zaufałam. To nie jest kwestia autosugestii, czy samej
+wiary. Byłam ostatnią osobą, o której bym pomyślała, że
+kiedyś się nawróci. A jednak, CUDA się zdarzają.<br /><br />
+
+Teraz po raz pierwszy dzielę się z Tobą swoją historią, tak
+jak ta dziewczyna ze mną, w jeepie w drodze do innego
+miasta. Mam nadzieję, że moje świadectwo da Ci nadzieję, że
+nie ma rzeczy niemożliwych ani sytuacji beznadziejnych.
+Jedyne czego potrzebujesz to otwarte serce i szczera chęć,
+żeby poznać Jezusa, takiego jakim jest naprawdę.
+<strong
+>Bóg wysłuchuje modlitw, nawet jeśli nie do końca w to
+jeszcze wierzysz.</strong
+>"
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Karola Koprowska
+</p>
+</div>
+
+<!-- Świadectwo Kamila Urbanowicza - nowe -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift mb-6">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Kamila -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-emerald-100 to-green-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/1fmW4be9dp8_Z9Y2-7uQC0xRXYEw_2K3h"
+alt="Kamil Urbanowicz"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-emerald-200 to-green-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">
+Kamil Urbanowicz
+</p>
+</div>
+</div>
+</div>
+
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-emerald-50 to-green-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="kamilUrbanowiczTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Na początku chciałbym zburzyć pewien dystans który czasami
+powstaje między osobami które siedzą i osobami które mówią,
+powstaje takie myślenie, że my się mamy za lepszych, albo że
+się wywyższam. Więc od siebie ale myślę że i w imieniu
+innych powiem że tak wcale nie jest, jesteśmy tutaj tylko
+dlatego że kiedyś byliśmy w trudnym położeniu, ale ktoś nam
+pomógł, więc dziś chcemy my tą samą pomoc przekazać innym…
+zresztą jak posłuchacie naszych historii, dobra będę mówił
+za siebie, jak posłuchajcie mojej historii to zobaczycie że
+nie mam za grosz powodów żeby czuć się lepszy od
+kogokolwiek… a całe moje życie czułem się gorszy od
+wszystkich.<br /><br />
+
+Ale ALe Ale Ale wszystko od początku, ponieważ to jacy
+jesteśmy zaczyna się od tego jaki był nasz dom, ja pochodzę
+z połączenia. perfekcjonistycznego wojskowego taki właśnie
+jest mój tata i pedantycznej urzędniczki która była moja
+mama. Moje dzieciństwo wydawałoby się szczęśliwe, jako
+jedynak miałem dużo uwagi, byłem trochę… a raczej bardzo
+nadpobudliwym dzieckiem. Przez większą część swojego
+dorastania uprawiałem chyba wszystkie możliwe sporty
+związanie z piłka z piłką. Choć może dziś na takiego nie
+wyglądam 😊<br /><br />
+
+Z Bogiem nie miałem za dużo wspólnego, chociaż przyjąłem
+wszystkie sakramenty kościoła powszechnego, to tak naprawdę
+tylko przez chwilę próbowałem go znaleźć, jak miałem może z
+14 lat chodziłem systematycznie do kościoła i modliłem się
+najwięcej jak potrafiłem. Uczynkowość i brak poprawy mojego
+stanu doprowadziły mnie do frustracji i szybko zaniechałem
+tej drogi.<br /><br />
+
+Na pierwszy rzut oka wszystko wyglądało dobrze, ale jeśli
+ktoś przyjrzał by mi się mnie z bliska, zobaczył by nie
+pewnego chłopca, którego nigdy nie ma w domu i wraca do
+niego najpóźniej jak się tylko, bo ucieka od siebie samego i
+od alkoholu w domu, nie zrozumcie mnie źle nie były to
+jakieś potężne imprezy, ale mieszkając na osiedlu wojskowym
+alkohol w domu był normą.<br /><br />
+
+Kiedy podwórko wychowuje dzieci prędzej czy później wpadną w
+tarapaty, ja przez dłuższy czas jakoś unikałem większych
+problemów i dopóki moim głównym zajęciem był sport wszystko
+wydawało się w porządku.<br /><br />
+
+Jednak, gdy poszedłem do szkoły średniej zdałem sobie
+sprawę, że kariery już raczej nie zrobię, więc miałem coraz
+więcej wolnego czasu, z którym jako chłopak pełen energii
+nie widziałem za bardzo co zrobić. Szybko zaczęły się
+imprezy, alkohol i narkotyki które nawet nie zauważyłem,
+kiedy stały się moim główny zajęciem.<br /><br />
+
+i Nawet nie zauważyłem, kiedy, ale właściwie jedynym moim
+zajęciem było palenie zielska a od czasu do czasu coś
+wpadało mocniejszego. Niestety dla mojej wrażliwości a może
+i nadwrażliwości oraz toksycznych znajomych dragi były jak
+woda na młyn. wprowadziły mnie w bagno, z którego nie
+umiałem wyjść a które wciągało mnie coraz głębiej.<br /><br />
+
+Brak poczucia własnej wartości, coraz głębiej postępująca
+schizofrenia, brak celu oraz nadziei prowadziły do coraz
+częstszych myśli samobójczych. Aż któregoś dnia podjąłem
+decyzję że nie będę już się dalej męczył sam ze sobą, o
+dziwo byłem wtedy trzeźw, zjadłem wszystkie tabletki
+psychotropowe jakie miałem w domu 6 krotną dawkę śmiertelną,
+nie chciałem być uratowany, nie napisałem listu pożegnalnego
+do nikogo nie dzwoniłem byłem pewny że nikogo nie mam.<br /><br />
+
+<strong
+>Z perspektywy czasu widzę jednak że już wtedy Bóg nade
+mną czuwał ponieważ mój Tata wstał… za potrzebą i usłyszał
+że się krztuszę, nieprzytomny dławiłem się własnymi
+wymiocinami.</strong
+><br /><br />
+
+Wiecie że on prawie nigdy nie zaglądał do mojego pokoju?<br /><br />
+
+<strong
+>Jako były strażak zadzwonił po karetkę i zaczął mnie
+resuscytować i prawdopodobnie uratował mi życie.</strong
+><br /><br />
+
+Czasami tak jest że Bóg uwalnia od czegoś natychmiast ja tak
+miałem z dragami, alkoholi i kłamstwa, moich własnych
+kłamstw i kłamstwa na temat jaki jestem. Ale z fajkami
+musiałem powalczyć, zajęło mi 3 lata żeby je rzucić,
+starałem się jak mogłem, bywało że wytrzymywałem miesiąc,
+bywało że pół roku i cały czas wracałem - zwykły mechanizm
+uzależnienia który każdy z was napewno zna.<br /><br />
+
+Jednak ja byłem innym człowiekiem, choć były momenty że
+chciałem się poddać, to gdy wracałem do Bożego Słowa gdy
+zaczynałem się modlić to widziałem jak wiele Jezus poświęcił
+za mnie i to mnie motywowało żeby oddać mu ten obszar, to
+mnie motywowało do tego żeby być w pełni wolnym człowiekiem.
+Próbowałem tak wielu rzeczy silnej woli, tabletek, nawet
+urlop wziąłem żeby się zaszyć, myślałem że jak z tydzień
+wytrzymam to będzie łatwiej.<br /><br />
+
+<strong
+>Po 3 latach walki wierze że też z Bożą pomocą po której
+kolejnej próbie tym razem już wytrzymałem i nie palę po
+dziś dzień.</strong
+><br /><br />
+
+Miałem pracę, później po kilku latach, nawet nie szukając a
+tylko modląc się znalazłem drugą pracę od Boga, a później i
+3 w tej pracuję do dziś. Przez te trzy lata także naprawiłem
+relacje z moimi rodzicami, oraz nauczyłem się szanować ich i
+kochać. Moimi największymi pragnieniami było iść na modlitwę
+i na grupę domową.<br /><br />
+
+<strong
+>Gdybyście w 2012 roku powiedzieli mi że tak będzie
+wyglądać moje życie, pewnie bym was wyśmiał i zwyzywał.
+Dziś jestem wdzięczny Jezusowi bo jestem w pełni świadomy
+że to tylko Jego zasługa, ponieważ ja o własnych
+staraniach doszedłem do zupełnie innego miejsca.</strong
+><br /><br />
+
+Dbanie o relację - to jest moja siła.<br /><br />
+
+Kiedy zacząłem już stawać na nogi przyglądałem się temu
+słowu: <strong>Beznadziejny</strong> – pozbawiony szansy,
+pozbawiony przyszłości, nic już z niego nie będzie. Jest to
+bardzo mocne słowo, którego często nadużywamy, chciałbym
+żebyśmy, żebyś ty drogi słuchaczu od dziś przestał używać
+tego trudnego słowa w stosunku do innych ludzi. Ponieważ tą
+łatkę bycia beznadziejnym jest tak ciężko od siebie
+odciąć.<br /><br />
+
+<strong
+>Teraz mam nadzieję i ta nadzieja jest dla każdego
+ponieważ w księdze Ezechiela 593-571 p.n.e czyli 2,5
+tysiąca lat temu są zapisane takie słowa: „Pan mówi: Nie
+chcę śmierci grzesznika, lecz aby się nawrócił i żył". Ez
+33, 11</strong
+>"
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Kamil Urbanowicz
+</p>
+</div>
+
+<!-- Świadectwo Aurory - na końcu -->
+<div class="bg-white/70 rounded-xl p-6 shadow-lg hover-lift">
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Zdjęcie Aurory -->
+<div class="md:col-span-1">
+<div
+class="bg-gradient-to-br from-yellow-100 to-orange-200 rounded-lg p-3 h-72 shadow-inner"
+>
+<img
+src="https://lh3.googleusercontent.com/d/11uEGDC4-ndXtPiBulXecB3Bdracfdtvj"
+alt="Aurora Jaworska"
+class="w-full h-full object-cover rounded-lg shadow-lg"
+onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+/>
+<div
+class="w-full h-full bg-gradient-to-br from-yellow-200 to-orange-300 rounded-lg flex flex-col items-center justify-center text-gray-600"
+style="display: none"
+>
+<div class="text-4xl mb-2">👤</div>
+<p class="text-sm font-medium text-center">
+Aurora Jaworska
+</p>
+</div>
+</div>
+</div>
+
+<!-- Tekst świadectwa -->
+<div class="md:col-span-2">
+<div
+class="p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-lg mb-4 max-h-80 overflow-y-auto"
+>
+<p
+id="healingTestimony"
+class="text-gray-700 text-sm leading-relaxed text-left"
+>
+"Kilka lat temu podczas treningu jeździeckiego spadłam z
+konia. Niestety, upadłam na twarz i uszkodziłam kilka kręgów
+szyjnych. Trafiłam do szpitala, gdzie założono mi kołnierz
+ortopedyczny i udzielono odpowiednich wskazówek – dożywotni
+zakaz jazdy potwierdzony przez trzech niezależnych lekarzy.
+Ortopedzi mówili, że ból będzie mi towarzyszył do końca
+życia.<br /><br />
+
+Jeździectwo było dla mnie nie tylko największą pasją, ale i
+stylem życia – marzyłam, by zostać trenerką i mieć własną
+stajnię. Dyslokacje kręgów powodowały tak silny ból, że
+każdy dzień był ogromnym cierpieniem. Kiedy tylko mogłam,
+leżałam, korzystałam z różnych form fizjoterapii i brałam
+tabletki przeciwbólowe.<br /><br />
+
+Kiedy poznałam Jezusa, uświadomiłam sobie, że On może zabrać
+całe moje cierpienie – nikt nie pragnie zdjąć z nas bólu
+bardziej niż On! Skoro to czytacie, to znaczy, że tak się
+właśnie stało.<br /><br />
+
+<strong
+>Pewnego dnia podczas modlitwy w kościele wyszłam do
+przodu, poczułam Bożą obecność, a moje ciało zaczęło się
+trząść – nie ze strachu, lecz z dotyku Boga. Od tamtej
+chwili ból w szyi zniknął zupełnie!</strong
+>
+Mogę ponownie działać i cieszyć się życiem (choć na konia
+już nie wsiądę 🤣).<br /><br />
+
+Bóg naprawdę jest najlepszym lekarzem i chce nas uzdrowić
+bardziej niż ktokolwiek inny!"
+</p>
+</div>
+</div>
+</div>
+<p class="text-gray-600 text-center font-medium mt-4">
+- Aurora Jaworska
+</p>
+</div>
+</div>
+</section>
+
+<!-- Daily Verse Section -->
+<section class="mb-16">
+<div class="card-gradient rounded-3xl p-8 md:p-12 shadow-xl hover-lift">
+<h2
+id="verseTitle"
+class="text-4xl font-bold text-center mb-8 gradient-text"
+>
+Wers na dziś
+</h2>
+<div class="text-center">
+<div id="verseContainer" class="bg-white/60 rounded-2xl p-8 mb-6">
+<blockquote
+id="dailyVerse"
+class="text-xl md:text-2xl font-light text-gray-700 italic mb-4"
+>
+"Bóg jest miłością, a kto trwa w miłości, trwa w Bogu, a Bóg
+trwa w nim."
+</blockquote>
+<cite
+id="verseReference"
+class="text-lg text-blue-700 font-medium"
+>
+– 1 Jana 4:16
+</cite>
+</div>
+<button
+onclick="getNewVerse()"
+class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover-lift"
+>
+<span id="verseButton">🎲 Wylosuj sobie cytat</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-white/80 backdrop-blur-sm py-12">
+<div class="max-w-4xl mx-auto px-6">
+<!-- Contact Button -->
+<div class="text-center mb-8">
+<a
+href="https://m.me/twojaprzystan"
+target="_blank"
+class="inline-block bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-full font-bold text-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-xl hover-lift"
+>
+<span id="contactButton">💬 Napisz do nas</span>
+</a>
+<p
+id="contactSubtext"
+class="text-gray-600 mt-4 text-sm max-w-md mx-auto"
+>
+Chętnie odpowiemy na Twoje pytania i porozmawiamy. Kliknij, aby
+napisać do nas na Messengerze
+</p>
+</div>
+
+<!-- Social Media Links -->
+<div class="text-center">
+<h3 id="followTitle" class="text-2xl font-bold gradient-text mb-6">
+Śledź nas
+</h3>
+<div class="flex flex-wrap justify-center gap-4 mb-8">
+<a
+href="https://www.facebook.com/twojaprzystan?mibextid=wwXIfr&rdid=v5Q7ct9qxmIaQepr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14HKg57AX9s%2F%3Fmibextid%3DwwXIfr%26pl%3D1&wtsid=rdr_0xl8LnsLGIGHY3EJd"
+target="_blank"
+class="bg-gradient-to-r from-blue-400 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:from-blue-500 hover:to-blue-700 transition-all duration-300 shadow-lg hover-lift"
+>
+📘 Facebook
+</a>
+<a
+href="https://www.instagram.com/twojaprzystan_/"
+target="_blank"
+class="bg-gradient-to-r from-pink-400 to-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-500 hover:to-purple-700 transition-all duration-300 shadow-lg hover-lift"
+>
+📷 Instagram
+</a>
+<a
+href="https://www.youtube.com/channel/UCXbDm1gNq7LtoGVllEYTlFg"
+target="_blank"
+class="bg-gradient-to-r from-red-400 to-red-600 text-white px-6 py-3 rounded-full font-semibold hover:from-red-500 hover:to-red-700 transition-all duration-300 shadow-lg hover-lift"
+>
+🎥 YouTube
+</a>
+<a
+href="https://www.twojaprzystan.pl/"
+target="_blank"
+class="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-semibold hover:from-blue-600 hover:to-cyan-700 transition-all duration-300 shadow-lg hover-lift"
+>
+🌐 Strona Kościoła
+</a>
+</div>
+</div>
+
+<!-- Contact Info -->
+<div class="text-center">
+<div class="card-gradient rounded-xl p-6 shadow-lg hover-lift">
+<p class="text-xl font-semibold text-gray-800">
+              📍 Gietkowska 10D, 10-041 Olsztyn
+              📍 Gietkowska 10D, 10-170 Olsztyn
+</p>
+<p class="text-blue-600 font-semibold mt-2">Twoja Przystań ⚓</p>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+console.log("Gospel Days script loaded");
+// Initialize verse index
+let currentVerseIndex = 0;
+
+// Make sure functions are available globally from the start
+window.toggleLanguage = function () {
+currentLanguage = currentLanguage === "pl" ? "en" : "pl";
+updateContent();
+};
+
+window.getNewVerse = function () {
+const verseElement = document.getElementById("dailyVerse");
+const referenceElement = document.getElementById("verseReference");
+const container = document.getElementById("verseContainer");
+
+if (!verseElement || !referenceElement || !container) {
+console.error("Verse elements not found");
+return;
+}
+
+// Add fade effect
+container.style.opacity = "0.5";
+
+setTimeout(() => {
+const currentVerses = verses[currentLanguage];
+// Get a random verse instead of sequential
+const randomIndex = Math.floor(Math.random() * currentVerses.length);
+currentVerseIndex = randomIndex;
+const newVerse = currentVerses[currentVerseIndex];
+
+verseElement.textContent = `"${newVerse.text}"`;
+referenceElement.textContent = `– ${newVerse.reference}`;
+
+container.style.opacity = "1";
+}, 300);
+};
+
+// Language state
+let currentLanguage = "pl";
+
+// Translation object
+const translations = {
+pl: {
+langButton: "🇬🇧 English",
+eventLocation: "📍 Targ Rybny, Olsztyn",
+featuredVerse:
+'„Przyjdźcie do Mnie wszyscy, którzy jesteście spracowani i obciążeni, a Ja wam dam odpocznienie."',
+featuredVerseRef: "– Jezus (Ewangelia Mateusza 11:28)",
+whoAreWeTitle: "Kim jesteśmy?",
+gospelTitle: "Czym jest Ewangelia?",
+mainContent: `
+     <p class="text-xl font-medium text-gray-800">
+     „Jesteśmy ludźmi, którzy odkryli, że życie z Bogiem naprawdę ma sens.
+     </p>
+
+     <p>
+     Gospel Days to przestrzeń, którą stworzyliśmy z serca – dla każdego, kto szuka sensu, relacji, nadziei i wsparcia.
+     </p>
+
+     <p>
+     Wiemy, że wielu z nas doświadczyło trudnych sytuacji w życiu, zawodów, bólu, zniechęcenia. Może ktoś Cię zranił, a może Ty kogoś. Może czułeś się oceniony, niezrozumiany, pominięty, a może niszczy Cię wstyd czy nieprzebaczenie.
+     </p>
+
+     <p class="text-xl font-semibold text-blue-800">
+     Jedno wiemy na pewno- Bóg jest miłością, kocha Cię. On przyjmuje każdego kto do Niego się zwraca, prosi Go o pomoc, jest dostępny w każdym momencie życia, pośród naszych pytań słabości i historii.
+     </p>
+
+     <p class="font-medium text-gray-800">
+     Nie trzeba być „religijnym", żeby z nami pogadać.<br>
+     Nie oceniamy. Słuchamy.
+     </p>
+
+     <p>
+     Jesteśmy częścią chrześcijańskiej wspólnoty w Olsztynie – Kościoła <span class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-1 rounded-full font-semibold shadow-lg whitespace-nowrap">„Twoja&nbsp;Przystań"&nbsp;⚓</span>, który działa w Polsce od wielu lat i należy do szerszej rodziny Kościołów Ewangelicznych.
+     </p>
+
+     <p>
+     Możesz przyjść, zadać pytanie, pomilczeć, napić się herbaty.
+     </p>
+
+     <p class="text-xl font-bold text-blue-900 text-center">
+     To jest przystań – dla Ciebie."
+     </p>
+     `,
+gospelContent: `
+     <p>
+     <strong>Ewangelia</strong> – słowo, które wielu z nas słyszało już nieraz. Ale czy kiedykolwiek naprawdę zastanowiłeś się, o co w niej tak właściwie chodzi? Może obiło Ci się kiedyś o uszy określenie <strong>„Dobra Nowina"</strong>. Brzmi zachęcająco, prawda? A jednak tak niewielu naprawdę wie, co się pod nim kryje.
+     </p>
+
+     <p class="text-xl font-semibold text-purple-700 text-center">
+     I właśnie dlatego tu jesteśmy — my, chrześcijanie — by się tym podzielić.
+     </p>
+
+     <p>
+     Każdy z nas, bez wyjątku, w pewnym momencie swojego życia zgrzeszył. Nie ma człowieka, który nigdy nie zboczył z właściwej ścieżki. Choćbyśmy starali się naprawić swoje błędy dobrymi uczynkami, to i tak nie wystarczy… Bo tego, co już się wydarzyło, nie da się cofnąć.
+     </p>
+
+     <p>
+     Być może słyszałeś już, co Biblia mówi o grzechu:
+     </p>
+
+     <div class="bg-white/60 rounded-xl p-6 my-6">
+     <blockquote class="text-gray-600 italic space-y-3">
+     <p>„Albowiem zapłatą za grzech jest śmierć" <span class="text-blue-700 font-medium">(Rz 6,23)</span></p>
+     <p>„Dusza, która grzeszy, ta umrze" <span class="text-blue-700 font-medium">(Ez 18,20)</span></p>
+     <p>„To wasze winy są tym, co was oddziela od waszego Boga" <span class="text-blue-700 font-medium">(Iz 59,2)</span></p>
+     </blockquote>
+     </div>
+
+     <p>
+     Brzmi to poważnie… Więc gdzie w tym wszystkim kryje się ta dobra wiadomość?
+     </p>
+
+     <p class="text-2xl font-bold text-center text-blue-900 py-4">
+     Właśnie w Jezusie.
+     </p>
+
+     <p class="text-xl font-medium text-gray-800">
+     To On przyszedł na świat, wziął na siebie grzech każdego człowieka, zaniósł go na krzyż, oddał za nas swoje życie — i zmartwychwstał.
+     To, co było nie do naprawienia po naszej stronie, On wziął na siebie. Zapłacił, choć sam był bez grzechu — doskonały Syn Boży.
+     </p>
+
+     <p class="text-xl font-semibold text-blue-800">
+     Co zatem pozostaje nam?<br>
+     Zaskakująco… nic.
+     </p>
+
+     <p>
+     I nie, to nie jest żart. Łaska to dar — a daru nie da się „dopełnić" uczynkami, bo przestałby być darem. Można go jedynie przyjąć.
+     </p>
+
+     <p class="text-xl font-medium text-gray-800">
+     Dlatego właśnie mówimy dziś o <strong>Dobrej Nowinie</strong>. Bo każdy z nas, kto żył kiedyś w ciemności, został zawołany po imieniu — i od tej chwili może cieszyć się pełnią wolności. I to nie na chwilę, ale na zawsze.
+     </p>
+
+     <p>
+     Biblia jasno pokazuje, jak można ten dar przyjąć:
+     </p>
+
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 rounded-xl p-6 my-6">
+     <blockquote class="text-xl font-medium text-gray-700 italic text-center">
+     „Jeżeli więc ustami swoimi wyznasz, że Jezus jest Panem, i w sercu swoim uwierzysz, że Bóg Go wskrzesił z martwych – osiągniesz zbawienie."
+     </blockquote>
+     <cite class="block text-center text-blue-700 font-semibold mt-4">(Rz 10,9–10)</cite>
+     </div>
+
+     <p class="text-2xl font-bold text-center text-blue-900 py-4">
+     I właśnie to jest w tym wszystkim najpiękniejsze, prawda?
+     </p>
+     `,
+prayerTitle: "Nie musisz mieć wszystkich odpowiedzi",
+prayerContent: `
+     <p class="text-xl font-medium text-gray-800">
+     Wystarczy, że powiesz Bogu:
+     </p>
+
+     <blockquote class="text-2xl md:text-3xl font-light text-blue-800 italic py-8">
+     „Boże, jeśli naprawdę istniejesz, pomóż mi Cię poznać"
+     </blockquote>
+
+     <p class="text-xl font-semibold text-gray-800">
+     A On odpowie na szczere serce.
+     </p>
+     `,
+contactButton: "💬 Napisz do nas",
+contactSubtext:
+"Chętnie odpowiemy na Twoje pytania i porozmawiamy. Kliknij, aby napisać do nas na Messengerze",
+testimonialsTitle: "Świadectwa",
+videoTestimonialsTitle: "Nagrania video",
+textTestimonialsTitle: "Świadectwa tekstowe",
+watchOnYoutube: "Obejrzyj na YouTube",
+clickToOpen: "Kliknij aby otworzyć",
+monikasTestimony: "Świadectwo Moniki",
+watchOnDrive2: "Obejrzyj nagranie",
+clickToOpen2: "Kliknij aby otworzyć",
+watchOnDrive3: "Obejrzyj nagranie",
+clickToOpen3: "Kliknij aby otworzyć",
+videoTestimony2: "Świadectwo Ani Danilczuk",
+videoTestimony3: "Świadectwo Aurory Jaworskiej",
+videoPlaceholder: "Nagranie video",
+placeholderToFill: "Miejsce na nagranie do uzupełnienia",
+textTestimonyPlaceholder: "Świadectwo tekstowe",
+textPlaceholderToFill: "Miejsce na świadectwo do uzupełnienia",
+verseTitle: "Wers na dziś",
+verseButton: "🎲 Wylosuj sobie cytat",
+followTitle: "Śledź nas",
+bibleQuote:
+'„Łaską bowiem jesteście zbawieni przez wiarę. A to pochodzi nie od was, lecz jest darem Boga: nie z uczynków, aby się nikt nie chlubił."',
+bibleQuoteRef: "– Efezjan 2:8-9",
+eventTimes: `
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-4 rounded-xl shadow-md border border-blue-200">
+     <div class="text-center">
+     <div class="text-blue-700 font-semibold text-lg mb-1">15 sierpnia</div>
+     <div class="text-2xl font-bold text-blue-900">15:00</div>
+     </div>
+     </div>
+     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-4 rounded-xl shadow-md border border-purple-200">
+     <div class="text-center">
+     <div class="text-purple-700 font-semibold text-lg mb-1">23-24 sierpnia</div>
+     <div class="text-2xl font-bold text-purple-900">11:00</div>
+     </div>
+     </div>
+     `,
+krzysztofsTestimony: `"Jeszcze kilka lat temu Bóg był mi obcy i zwracałem się do niego tylko pod wpływem wewnętrznego strachu lecz gdy on minął mijała także ta obłudna relacja. Nie potrzebowałem go bo sam byłem silny, nieśmiertelny, miałem innych bożków takich jak pieniądze czy używki, do czasu aż straciłem swoją siłę na wszystko.<br><br>
+
+     Wszystko wokół mnie nie było już dla mnie ważne. Ani moja rodzina ani ja sam nie mówiąc o jakichkolwiek relacjach z innymi. Wtedy też uważałem, że chyba jednak Boga nie ma, a ja jestem tak złą osobą, która niszczy wszystko co ją otacza i krzywdzi najbliższych, że lepiej będzie umrzeć niż się męczyć życiem.<br><br>
+
+     Doszedłem do tak wielkiego muru że wydawało mi się iż jest on nie do rozbicia przez nikogo i znałem już nawet datę swojej śmierci. Czułem wielki zawód sobą jako ojcem dwóch cudownych córek, że nie dałem rady wychować ich tak jak zawsze mówiłem że tego chcę.<br><br>
+
+     I wtedy chyba pierwszy raz w życiu myśląc o swoim życiu, tym że byłem kiedyś szczęśliwy ze swoją rodziną zanim popadłem w uzależnienie płakałem i rozmawiałem z Bogiem. Mówiłem mu, że nie mam już siły aby dalej żyć, prosiłem aby czuwał nad moją rodziną i aby moje dziewczyny zrozumiały, że beze mnie będzie im lepiej.<br><br>
+
+     <strong>Ale nieeeeeee - Bóg jednak znalazł inne rozwiązanie i okazał swoją miłość oraz łaskę dla takiego degenerata jak ja.</strong><br><br>
+
+     8 października na mojej drodze życiowej pojawił się mój anioł stróż i od tego dnia zaczęło się wszystko zmieniać - była to terapeutka mojej żony jak sama o sobie mówi „jestem Ewa żona Adama pastora"<br><br>
+
+     To dzięki Ewie i zaproszeniu na Weekend Małżonków Alma w 2023 roku moje/nasze życie zaczęło się zmieniać. Zaczęliśmy się ze sobą komunikować, uczęszczać do Twojej Przystani. Zaczęło się pojawiać we mnie uczucie przebaczenia, zrozumienia i wiara w to że jednak mogę jeszcze być szczęśliwy.<br><br>
+
+     <strong>To co jest dziś, to jak wygląda Nasze życie, jak się nim cieszymy z Żoną, to droga cudów, trwająca już 20 miesięcy.</strong><br><br>
+
+     Wiem, że to co się wydarzyło tego 8 października to nie przypadek. Pamiętam słowa Adama na Almie który mówił że mimo braku Naszej wiary w Nasze małżeństwo oni w Nas wierzą i kiedyś będę o tym mówił innym.<br><br>
+
+     I to jest właśnie ten dzień 8 czerwca czyli 20 miesięcy później proroctwo Adama się wypełnia. <strong>Dziękuję Bogu za moje nowe życie i chce podążać przez nie z nim.</strong>"`,
+healingTestimony: `"Kilka lat temu podczas treningu jeździeckiego spadłam z konia. Niestety, upadłam na twarz i uszkodziłam kilka kręgów szyjnych. Trafiłam do szpitala, gdzie założono mi kołnierz ortopedyczny i udzielono odpowiednich wskazówek – dożywotni zakaz jazdy potwierdzony przez trzech niezależnych lekarzy. Ortopedzi mówili, że ból będzie mi towarzyszył do końca życia.<br><br>
+
+     Jeździectwo było dla mnie nie tylko największą pasją, ale i stylem życia – marzyłam, by zostać trenerką i mieć własną stajnię. Dyslokacje kręgów powodowały tak silny ból, że każdy dzień był ogromnym cierpieniem. Kiedy tylko mogłam, leżałam, korzystałam z różnych form fizjoterapii i brałam tabletki przeciwbólowe.<br><br>
+
+     Kiedy poznałam Jezusa, uświadomiłam sobie, że On może zabrać całe moje cierpienie – nikt nie pragnie zdjąć z nas bólu bardziej niż On! Skoro to czytacie, to znaczy, że tak się właśnie stało.<br><br>
+
+     <strong>Pewnego dnia podczas modlitwy w kościele wyszłam do przodu, poczułam Bożą obecność, a moje ciało zaczęło się trząść – nie ze strachu, lecz z dotyku Boga. Od tamtej chwili ból w szyi zniknął zupełnie!</strong> Mogę ponownie działać i cieszyć się życiem (choć na konia już nie wsiądę 🤣).<br><br>
+
+     Bóg naprawdę jest najlepszym lekarzem i chce nas uzdrowić bardziej niż ktokolwiek inny!"`,
+spiritualJourneyTestimony: `"I grew up in a family where Christianity was seen primarily as an element of Polish tradition, rather than as a personal faith. I was baptized and received First Holy Communion, but at that time I didn't understand what a true relationship with God was about.<br><br>
+
+     Since I always felt there was something more, I began searching for my spiritual path in other places. I read many books about spirituality, mainly related to soul journeys, reincarnation, energy and similar topics. I practiced various spiritual methods to connect with 'higher energy'. I meditated, entered various trance states to learn about my past lives, learned Reiki energy work and worked with dreams.<br><br>
+
+     None of these experiences could fill the emptiness I carried within me. I felt like I understood more and more, but my mental and physical state was deteriorating. For most of my life I struggled with various mental disorders: depression, anxiety disorders, eating disorders. I desperately wanted to understand the meaning of what was happening to me and sought solutions to my problems in spiritual practices. They brought me only temporary relief, followed by deterioration.<br><br>
+
+     Eventually I met a man who was as open to spirituality as I was. He worked with energy, and I very quickly allowed him to conduct his therapies on me. Initially the sessions brought me enormous relief and peace. I felt my childhood traumas and suppressed emotions beginning to release. The effects were spectacular, which made me open up more and more.<br><br>
+
+     However, after some time everything began to deteriorate. I started having nightmares that I had never experienced with such intensity before. These sessions made me increasingly dependent on this man. When he treated me badly, I couldn't set boundaries. Our relationship was deteriorating, I didn't want to be with him, but I couldn't leave.<br><br>
+
+     Finally it dawned on me that the energy this man worked with didn't come from a good source. I asked for help from my Christian friend who appeared in my life around the same time as him. I felt I had to return to the Church to cleanse myself from the influence of these therapies.<br><br>
+
+     <strong>This was the most pivotal moment of my life. I opened my heart to Jesus and accepted Him into myself.</strong> Christianity had been rejecting to me for most of my life, but at that moment I felt it was the only truth that could save me from all the darkness. And that's what happened.<br><br>
+
+     <strong>Jesus saved me, took away all the darkness I had let in, and healed my wounded heart.</strong> Thanks to Him I regained my identity, I finally know who I really am. I still find it hard to believe that the solution was so simple. Even though I made many mistakes that were contrary to His teaching, He accepted me, forgave me and embraced me.<br><br>
+
+     Thanks to Him I become a better person every day. I have never felt so much love in myself before, which I can now share with other people. I am proud that I can carry this light within me. <strong>My life has only just begun.</strong>"`,
+kasiaBobowikTestimony: `"I grew up in the countryside in a traditional, Polish, large family. At a young age I lost my mother. My father and brothers struggled with alcohol addiction, which often led to arguments. I was fed up with it and couldn't cope, so I ran away from home many times while still a minor. However, I had to return to help with the farm. At that time I was finishing evening school, which was a huge challenge for my age.<br><br>
+
+     Meanwhile, my father remarried and moved away. I found a job and lived in rented accommodation. I had many complexes and very low self-esteem. I felt emptiness, which I tried to fill with alcohol, cigarettes, parties and company – especially on weekends. I led a dissolute lifestyle.<br><br>
+
+     At the age of 28, I got married and gave birth to three children. <strong>When my son fell ill and we were in the hospital, I heard the Gospel about the life, death and resurrection of the Lord Jesus from my friend – the pastor's wife. I received the New Testament, which I began to read. God began to speak to me really through His Word.</strong> I had many questions and found answers to all of them. This is how my relationship with the living God began. One night I confessed all my sins to Him, and He came with cleansing. <strong>I felt free, accepted and loved – something I had never known before.</strong><br><br>
+
+     One evening, when the pastors visited us, my husband also heard the Gospel, accepted it into his heart, was filled with the Holy Spirit and began to speak in tongues (Acts 2:1-4). <strong>Thanks to God, this happened before the tragic evening when my husband died in an accident. I was certain that he had met the Father in heaven.</strong><br><br>
+
+     That night, before I learned the news, I felt a great burden and lack of peace in my heart. I didn't know about the accident yet. I woke up in the middle of the night and called the emergency services, where I was informed about the tragedy and about my daughter's condition, who only had a few broken hands. I felt like I was standing over an abyss, but <strong>the Holy Spirit reminded me of the verse 'I will never leave you nor forsake you' (Hebrews 13:5), which repeatedly sustained me when I went through difficult valleys of life with my children.</strong><br><br>
+
+     My children took on a supportive role, and the bond we built then is strong to this day. Meanwhile, I had to take a job abroad so we could support ourselves. More than once I had to choose: a bus ticket or grocery shopping. My children bravely coped with responsibilities that often exceeded their capabilities.<br><br>
+
+     <strong>It was a very difficult time, but we saw God's hand in it, guidance, protection and miracles. God gave us strength at every step and filled our hearts with peace.</strong> We persevered in Him, read His Word, and He strengthened us. God is faithful and His promises are lasting – He is always with me.<br><br>
+
+     Today God has straightened everything out. Our relationships with the children are even stronger, I live in the city, and thanks to them I have a beautiful apartment. <strong>I am involved in the Coffee House ministry, which brings me great joy, because it's worth saving those who are heading for destruction. I go out on the streets, talk to people, tell them about the Lord Jesus and salvation.</strong> I listen to their difficult stories, pray for them. As the Coffee House ministry, we sent several people to Christian therapy in Łękinia. Several people were saved, freed from alcohol and found a new home.<br><br>
+
+     <strong>I am very grateful to God, because if I hadn't known Him earlier, I probably would have broken down forever. Thanks to Him, we went through all the difficulties and did not suffer defeat. Today I serve with testimony and can support others.</strong><br><br>
+
+     'A bruised reed he will not break, and a smoldering wick he will not snuff out' (Matthew 12:20)."`,
+karolKoprowskaTestimony: `"For as long as I can remember, my life was an endless wait for the next catastrophe. In constant readiness, only with moments to breathe, when you fight to stay afloat before the next wave covers you.<br><br>
+
+     Family problems, eating disorders, depression, therapy. In between, life, the best grades, pulling myself to the surface with superhuman willpower. 'Normality'.<br><br>
+
+     I come from a non-believing family, my contact with faith was limited to religion classes and although I 'received' the sacraments, faith was associated with coercion, hypocrisy and disappointment. Despite this, I searched for God in my own way, only in the wrong places. I was looking for truth, but even if I seemed to find it, fulfillment was temporary. When I was 15, I found Buddhism. Then I wanted to 'really experience something'. I studied 200 percent, partied 200 percent. I kept running somewhere further, thinking that if I cared enough about something, I would achieve everything I set out to do. If I achieved enough, worked on myself enough, I would find peace and fulfillment, this eternal torture would finally end. Only that moment never came.<br><br>
+
+     Then there was shamanism. Then a serious illness that confined me to bed for six months and deprived me of my entire previous life. One night it was so bad that I thought I wouldn't make it to morning. I remember praying then to survive. I recovered, but I didn't connect the facts. It must have been a coincidence, some lucky break that fit my modern and independent life.<br><br>
+
+     Another demanding job, relapse of illness, sudden death of the closest person. Another toxic relationship, more changes in career and place of residence. I went abroad to Asia for longer periods, once, twice, three times. I traveled, learned yoga, volunteered. However, apart from temporary relief, I still couldn't find fulfillment and peace. To be honest, I was at the end of my strength.<br><br>
+
+     <strong>One day, when the ceiling collapsed on my head again, in complete helplessness and desperation I called out to God to help me.</strong><br><br>
+
+     The next day, on the way to another city, I heard about Jesus and a real personal experience of God from a girl I met for the first time in my life, and she shared her conversion story with someone for the first time. <strong>Suddenly, in an inexplicable way, peace came. Hours of meditation, breathing exercises, contact with nature, travel, or more desperate attempts to organize my life didn't give it to me.</strong><br><br>
+
+     From then on, everything began to change. I got clarity as a package, and my life from small to serious things began to fall into place. I wake up with gratitude and joy for a new day. Inspiration and desire to develop my talents returned. Not out of compulsion, to prove something to myself, but pure joy. My relationships are improving, plans are naturally fulfilling. I have never seen any path straighten out so quickly 'by itself' (and I studied psychotherapy).<br><br>
+
+     <strong>I understood that it was not without reason that I experienced all this almost without harm, although heavily battered. SOMEONE was always with me, only I stubbornly didn't want to see it.</strong> My life changed when I opened up to guidance and trusted. It's not a matter of autosuggestion or faith alone. I was the last person I would have thought would ever convert. And yet, MIRACLES do happen.<br><br>
+
+     Now, for the first time, I'm sharing my story with you, just like that girl with me, in a jeep on the way to another city. I hope my testimony gives you hope that there are no impossible things or hopeless situations. All you need is an open heart and a sincere desire to get to know Jesus as He really is. <strong>God answers prayers, even if you don't quite believe it yet.</strong>"`,
+mercedesTestimony: `"Nazywam się Mercedes i dziś chcę Wam opowiedzieć, jak Pan wyratował mnie z najgłębszej otchłani i dał mi nowe życie.<br><br>
+
+     Przez ponad 20 lat byłam pogrążona w okultyzmie. Profesjonalnie zajmowałam się astrologią i miałam ponad 600 klientów na całym świecie. Byłam też praktykującą buddystką przez 18 lat. Nie wierzyłam w Boga, byłam ateistką i myślałam, że to, co robię, to dar duchowy. Z czasem jednak zrozumiałam, że ten „dar" był wykorzystywany przez Szatana.<br><br>
+
+     Mimo że wiele osób mnie otaczało, czułam się coraz bardziej pusta, zagubiona i coraz gorzej. Będąc we Włoszech popadłam w tak głęboką depresję, że kilka razy próbowałam odebrać sobie życie. Chodziłam do psychiatry, przepisano mi leki, ale nic nie pomagało.<br><br>
+
+     Moja siostra, która już była chrześcijanką, nalegała: „Musisz się modlić, czytać Biblię, chodzić do kościoła." Ale ja odmawiałam. Mówiłam, że nigdy nie postawię stopy w kościele ewangelickim, bo ludzie tam krzyczą i śpiewają. Wtedy powiedziała: „Dobrze — to przynajmniej czytaj Biblię." Tak zaczęłam, z dużym niedowierzaniem, z desperacji.<br><br>
+
+     Moja sytuacja była krytyczna. Słyszałam głosy, które popychały mnie do samobójstwa. Raz nawet próbowałam rzucić się pod samochód. W środku tego wszystkiego, pewnego dnia dostałam telefon od mojej przyjaciółki Marbelli z Miami. Zapytała, jak się mam, a ja odpowiedziałam, że źle, bardzo źle.<br><br>
+
+     W głębi serca szukałam czegoś. W Rzymie trudno było znaleźć kościół ewangeliczny. Następnego dnia Marbella poszła do kościoła, a kiedy wyszła zadzwoniła do mnie: „Merce, poznałam kobietę o imieniu Jackie. Mieszkała we Włoszech, mówi po włosku i ma tam kontakty. Dałam jej twój numer." Nie było już odwrotu — dała jej mój kontakt.<br><br>
+
+     <strong>Pewnego z tych dni, kiedy znów próbowałam odebrać sobie życie, wydarzyło się to, co nazywam cudem.</strong> Mój partner przyszedł w samą porę, otworzył drzwi i zastał mnie w środku tej sceny rozpaczy. Położył mnie na kanapie w salonie i poszedł po szklankę wody. W tym czasie mój telefon zaczął dzwonić. To był nieznany numer — nagranie od Jackie. Mówiła: „Cześć, jestem Jackie z kościoła ewangelickiego w Miami. Twoja znajoma dała mi twój numer, żeby porozmawiać z tobą."<br><br>
+
+     Odpowiedziałam jak mogłam: „Wybacz, nie mogę rozmawiać… módl się za mnie, właśnie mi się to przytrafiło." Ku mojemu zdziwieniu wysłała kolejne nagranie: „W imię Jezusa rozkazuję wszelkiemu duchowi śmierci, żeby natychmiast ją puścił, w mocy krwi Chrystusa." Nigdy czegoś takiego nie słyszałam. Jackie dalej wysyłała mi nagrania, modliła się z autorytetem, wstawiała się za moje życie. A ja płakałam, płakałam jak nigdy dotąd. <strong>To było moje pierwsze spotkanie z Duchem Świętym.</strong><br><br>
+
+     Tego samego wieczoru Jackie wytłumaczyła mi, co robić, a kilka godzin później przyjęłam Jezusa Chrystusa jako swojego Pana i zbawiciela. Od tego dnia uczyła mnie modlić się, czytać Biblię i pokazała jak zacząć nowe życie.<br><br>
+
+     Kilka tygodni później przyjechałam do Polski, żeby odwiedzić syna. Poczułam, że muszę poszukać kościoła. We Włoszech nigdy nie udało mi się pójść, bo wszystko było bardzo zamknięte. Ale tutaj, w Warszawie, znalazłam Kościół Hiszpański — pierwszy kościół, który odwiedziłam w życiu… i od tamtej pory już w nim zostałam.<br><br>
+
+     Później wróciłam do Włoch, ale już nie byłam tą samą osobą. <strong>Podjęłam decyzję, że porzucę wszystko, co mnie wiązało z moim dawnym życiem.</strong> Spaliłam wszystkie moje książki o astrologii — ogromną bibliotekę. Te, których nie mogłam spalić, porozrywałam nożem, żeby nikt inny ich nie mógł przeczytać. Zniszczyłam ołtarze buddyjskie, rozdarłam i wyrzuciłam teksty buddyzmu. Nawet przybiłam młotkiem małą figurkę - posążek, którą miałam w domu.<br><br>
+
+     Mój partner myślał, że oszalałam. Ale ja wiedziałam, co robię. Zapytałam go: „Chcesz się ożenić, tak czy nie? Nie będę dalej żyć w grzechu." Powiedział, że nie. Wtedy odpowiedziałam: „Ok. Odchodzę." I porzuciłam wszystko. Wszystko - dom, partnera, kraj, pracę. Nie miałam pojęcia, jak będę się utrzymywać… postąpiłam radykalnie.<br><br>
+
+     Kiedy wróciłam do Polski na stałe, trzy dni po wprowadzeniu się do małego studenckiego mieszkania z moim synem, Pan miał już dla mnie coś przygotowane. W mieście odbyła się konferencja, na którą przyjechali ludzie ze Stanów Zjednoczonych, i ja uczestniczyłam w niej w tym hiszpańskim kościele. Tam przeżyłam doświadczenie, które odmieniło moje życie na zawsze: <strong>uwolnienie duchowe.</strong><br><br>
+
+     Podczas tego uwolnienia poczułam piekło. To nie metafora. Czułam jego zapach, słyszałam głosy, czułam, jak się palę. Był to suchy, nie do zniesienia żar. Nie mogłam mówić ani oddychać — powietrza nie było, było sucho… jedyne, czego pragnęłam, to wody, żeby ktoś polał mnie wodą. Pamiętam, że pastorka mówiła: „Pali się, zdejmijcie jej sweter!" I rzeczywiście tak było. To było okropne, ale kluczowe. Poczułam na własnej skórze skąd Bóg mnie wyrwał.<br><br>
+
+     <strong>Tego dnia zrozumiałam, że Jezus jest wodą żywą.</strong> On jest jedynym, który może ugasić to duchowe pragnienie, tę wieczną udrękę. Zrozumiałam to głęboko czytając Łukasza 16, gdzie bogacz błaga Abrahama, by Łazarz zwilżył palec w wodzie i ochłodził mu język, bo jest dręczony w płomieniach. Ja to przeżyłam. I po tym nie było odwrotu. To, co Jezus chciał powiedzieć, mówiąc o tym pragnieniu, to że On jest wodą i nigdy nie będziemy już spragnieni.<br><br>
+
+     <strong>Kiedy przyjęłam Jezusa do swojego życia zostałam oczyszczona z tego bólu i cierpienia.</strong> Przeżyłam też uzdrowienia o których opowiem w innej części. Znalazłam swoje miejsce, swój kościół, powołanie, pracę i idealne mieszkanie. Żyję blisko rodziny, mam wspaniałych przyjaciół. Błogosławieństwa które przeżywam każdego dnia są ponad wszelkie moje wyobrażenia. <strong>Bóg naprawdę jest dobry.</strong>"`,
+mercedesHealingTestimony: `"Kilka tygodni temu otrzymałam wynik mammografii. Czułam pieczenie w lewej piersi i byłam bardzo zaniepokojona. Miałam sen — myślę, że Pan mnie ostrzegł — i nalegałam, żeby zrobić mammografię, ale nie mówili po angielsku, więc wielokrotnie nalegałam na syna, żeby zadzwonił… i nie dzwonił, aż w końcu sama poszłam. Kiedy otrzymałam raport 7 kwietnia, był po polsku i nic nie rozumiałam, ale Pan miał już wszystko idealnie ułożone.<br><br>
+
+     Mój syn pracuje w firmie zajmującej się leczeniem raka piersi metodami i technologiami ze Stanów Zjednoczonych. Przeszedł szkolenia medyczne, stale rozmawia z onkologami i dobrze zna cały proces. To on przeczytał raport i powiedział: „Mamo, masz guza o średnicy 15 milimetrów." Bardzo się zmartwił, gdy to przeczytał, bo wiedział dokładnie, co to oznacza.<br><br>
+
+     Następnego dnia poszliśmy do onkolog. Ona zbadała mnie fizycznie i potwierdziła to, co mówiła mammografia: wyczuwalna guza po lewej stronie. Powiedziała, że na razie nie będziemy robić kolejnej mammografii ani USG, tylko przejdziemy bezpośrednio do biopsji. Wyjaśniła, że będą musieli zrobić nacięcie około trzech centymetrów, pobrać próbkę, i że do tego potrzebne są obrazy z mammografii, aby dokładnie wiedzieć, gdzie interweniować.<br><br>
+
+     Postanowiłam nie robić biopsji w tych dniach, ponieważ miałam swoją służbę i wydarzenie w szkole - robiliśmy ewangelizację. Moja przyjaciółka przyszła do mnie do domu i modliliśmy się i zapytała: „Co zamierzasz zrobić z wydarzeniem dla dzieci?" Odpowiedziałam: „POJDĘ i nie zrobię tej biopsji aż do po tym wydarzeniu! Nie chcę, żeby cokolwiek ukradło mi radość malowania dla nich i mówienia im o Jezusie." Pato, jak zawsze, powiedziała: „Módlmy się…", w sobotę pastorzy modlili się dalej, a ja poczułam prąd przechodzący przez moje ciało… i wiedziałam, że stało się coś cudownego.<br><br>
+
+     Potem zrealizowałam wydarzenie z dziećmi w poniedziałek, więc ostatecznie we wtorek zdecydowałam się pójść na biopsję — postawiłam Boga na pierwszym miejscu.<br><br>
+
+     Joseph, mój syn, był ze mną i wszedł do sali, żeby zrobili mi biopsję. Mieliśmy ze sobą raport od lekarki onkolog, która wyczuła guza, i byli już gotowi. Joseph powiedział mi, że widział igłę — była bardzo długa — i że znieczulenie już mieli przygotowane… żeby pobrać próbkę. <strong>Chłopak z pracowni radiologicznej widział guz na mammografii, ale gdy ponownie go szukali, by pobrać biopsję, guz całkowicie zniknął…</strong> Chłopak nie rozumiał, co się stało, a ja mu powiedziałam: „Stoisz twarzą w twarz z cudem — Jezus żyje i wciąż dokonuje cudów". Zdezorientowany chłopak pobiegł po swoją przełożoną z radiologii, ona przyszła zrobić mi badanie i też nic nie znalazła… <strong>Powiedziała do mnie: „Pani, nie wiem, kto się za Panią modlił ani jak to się stało, ale zadziałało. Proszę się ubrać i wyjść — jest Pani zdrowa."</strong> Powiedziałam: „Jezus wciąż żyje…" Mój syn, poruszony, wszystko widział i słyszał, ponieważ Bóg chciał mu pokazać, że On jest Bogiem cudów."`,
+kamilUrbanowiczTestimony: `"Na początku chciałbym zburzyć pewien dystans który czasami powstaje między osobami które siedzą i osobami które mówią, powstaje takie myślenie, że my się mamy za lepszych, albo że się wywyższam. Więc od siebie ale myślę że i w imieniu innych powiem że tak wcale nie jest, jesteśmy tutaj tylko dlatego że kiedyś byliśmy w trudnym położeniu, ale ktoś nam pomógł, więc dziś chcemy my tą samą pomoc przekazać innym…<br><br>
+
+     Jak posłuchajcie mojej historii to zobaczycie że nie mam za grosz powodów żeby czuć się lepszy od kogokolwiek… a całe moje życie czułem się gorszy od wszystkich.<br><br>
+
+     Ale wszystko od początku, ponieważ to jacy jesteśmy zaczyna się od tego jaki był nasz dom, ja pochodzę z połączenia perfekcjonistycznego wojskowego taki właśnie jest mój tata i pedantycznej urzędniczki która była moja mama. Moje dzieciństwo wydawałoby się szczęśliwe, jako jedynak miałem dużo uwagi, byłem trochę… a raczej bardzo nadpobudliwym dzieckiem. Przez większą część swojego dorastania uprawiałem chyba wszystkie możliwe sporty związane z piłką. Choć może dziś na takiego nie wyglądam 😊<br><br>
+
+     Z Bogiem nie miałem za dużo wspólnego, chociaż przyjąłem wszystkie sakramenty kościoła powszechnego, to tak naprawdę tylko przez chwilę próbowałem go znaleźć, jak miałem może z 14 lat chodziłem systematycznie do kościoła i modliłem się najwięcej jak potrafiłem. Uczynkowość i brak poprawy mojego stanu doprowadziły mnie do frustracji i szybko zaniechałem tej drogi.<br><br>
+
+     Na pierwszy rzut oka wszystko wyglądało dobrze, ale jeśli ktoś przyjrzał by mi się z bliska, zobaczył by niepewnego chłopca, którego nigdy nie ma w domu i wraca do niego najpóźniej jak się tylko da, bo ucieka od siebie samego i od alkoholu w domu, nie zrozumcie mnie źle nie były to jakieś potężne imprezy, ale mieszkając na osiedlu wojskowym alkohol w domu był normą.<br><br>
+
+     Kiedy podwórko wychowuje dzieci prędzej czy później wpadną w tarapaty, ja przez dłuższy czas jakoś unikałem większych problemów i dopóki moim głównym zajęciem był sport wszystko wydawało się w porządku.<br><br>
+
+     Jednak, gdy poszedłem do szkoły średniej zdałem sobie sprawę, że kariery już raczej nie zrobię, więc miałem coraz więcej wolnego czasu, z którym jako chłopak pełen energii nie widziałem za bardzo co zrobić. Szybko zaczęły się imprezy, alkohol i narkotyki które nawet nie zauważyłem, kiedy stały się moim głównym zajęciem.<br><br>
+
+     Nawet nie zauważyłem, kiedy, ale właściwie jedynym moim zajęciem było palenie zielska a od czasu do czasu coś wpadało mocniejszego. Niestety dla mojej wrażliwości a może i nadwrażliwości oraz toksycznych znajomych dragi były jak woda na młyn. Wprowadziły mnie w bagno, z którego nie umiałem wyjść a które wciągało mnie coraz głębiej.<br><br>
+
+     <strong>Brak poczucia własnej wartości, coraz głębiej postępująca schizofrenia, brak celu oraz nadziei prowadziły do coraz częstszych myśli samobójczych. Aż któregoś dnia podjąłem decyzję że nie będę już się dalej męczył sam ze sobą, o dziwo byłem wtedy trzeźwy, zjadłem wszystkie tabletki psychotropowe jakie miałem w domu 6 krotną dawkę śmiertelną, nie chciałem być uratowany, nie napisałem listu pożegnalnego do nikogo nie dzwoniłem byłem pewny że nikogo nie mam.</strong><br><br>
+
+     <strong>Z perspektywy czasu widzę jednak że już wtedy Bóg nade mną czuwał ponieważ mój Tata wstał… za potrzebą i usłyszał że się krztuszę, nieprzytomny dławiłem się własnymi wymiocinami.</strong><br><br>
+
+     Wiecie że on prawie nigdy nie zaglądał do mojego pokoju?<br><br>
+
+     <strong>Jako były strażak zadzwonił po karetkę i zaczął mnie resuscytować i prawdopodobnie uratował mi życie.</strong><br><br>
+
+     Czasami tak jest że Bóg uwalnia od czegoś natychmiast ja tak miałem z dragami, alkoholi i kłamstwa, moich własnych kłamstw i kłamstwa na temat jaki jestem. Ale z fajkami musiałem powalczyć, zajęło mi 3 lata żeby je rzucić, starałem się jak mogłem, bywało że wytrzymywałem miesiąc, bywało że pół roku i cały czas wracałem - zwykły mechanizm uzależnienia który każdy z was napewno zna.<br><br>
+
+     Jednak ja byłem innym człowiekiem, choć były momenty że chciałem się poddać, to gdy wracałem do Bożego Słowa gdy zaczynałem się modlić to widziałem jak wiele Jezus poświęcił za mnie i to mnie motywowało żeby oddać mu ten obszar, to mnie motywowało do tego żeby być w pełni wolnym człowiekiem. Próbowałem tak wielu rzeczy silnej woli, tabletek, nawet urlop wziąłem żeby się zaszyć, myślałem że jak z tydzień wytrzymam to będzie łatwiej.<br><br>
+
+     <strong>Po 3 latach walki wierze że też z Bożą pomocą po której kolejnej próbie tym razem już wytrzymałem i nie palę po dziś dzień.</strong><br><br>
+
+     Miałem pracę, później po kilku latach, nawet nie szukając a tylko modląc się znalazłem drugą pracę od Boga, a później i 3 w tej pracuję do dziś. Przez te trzy lata także naprawiłem relacje z moimi rodzicami, oraz nauczyłem się szanować ich i kochać. Moimi największymi pragnieniami było iść na modlitwę i na grupę domową.<br><br>
+
+     <strong>Gdybyście w 2012 roku powiedzieli mi że tak będzie wyglądać moje życie, pewnie bym was wyśmiał i zwyzywał. Dziś jestem wdzięczny Jezusowi bo jestem w pełni świadomy że to tylko Jego zasługa, ponieważ ja o własnych staraniach doszedłem do zupełnie innego miejsca.</strong><br><br>
+
+     Dbanie o relację - to jest moja siła.<br><br>
+
+     Kiedy zacząłem już stawać na nogi przyglądałem się temu słowu: <strong>Beznadziejny</strong> – pozbawiony szansy, pozbawiony przyszłości, nic już z niego nie będzie. Jest to bardzo mocne słowo, którego często nadużywamy, chciałbym żebyśmy, żebyś ty drogi słuchaczu od dziś przestał używać tego trudnego słowa w stosunku do innych ludzi. Ponieważ tą łatkę bycia beznadziejnym jest tak ciężko od siebie odciąć.<br><br>
+
+     <strong>Teraz mam nadzieję i ta nadzieja jest dla każdego ponieważ w księdze Ezechiela 593-571 p.n.e czyli 2,5 tysiąca lat temu są zapisane takie słowa: „Pan mówi: Nie chcę śmierci grzesznika, lecz aby się nawrócił i żył". Ez 33, 11</strong>"`,
+},
+en: {
+langButton: "🇵🇱 Polski",
+eventLocation: "📍 Fish Market, Olsztyn",
+
+featuredVerse:
+'"Come to me, all who labor and are heavy laden, and I will give you rest."',
+featuredVerseRef: "– Jesus (Gospel of Matthew 11:28)",
+whoAreWeTitle: "Who are we?",
+gospelTitle: "What is the Gospel?",
+gospelContent: `
+     <p>
+     <strong>Gospel</strong> – a word many of us have heard countless times. But have you ever really thought about what it's actually about? Maybe you've heard the term <strong>"Good News"</strong> before. Sounds encouraging, right? Yet so few people really know what lies beneath it.
+     </p>
+
+     <p class="text-xl font-semibold text-purple-700 text-center">
+     And that's exactly why we're here — we, Christians — to share this with you.
+     </p>
+
+     <p>
+     Every one of us, without exception, has sinned at some point in our lives. There is no person who has never strayed from the right path. Even if we tried to fix our mistakes with good deeds, it still wouldn't be enough... Because what has already happened cannot be undone.
+     </p>
+
+     <p>
+     Perhaps you've already heard what the Bible says about sin:
+     </p>
+
+     <div class="bg-white/60 rounded-xl p-6 my-6">
+     <blockquote class="text-gray-600 italic space-y-3">
+     <p>"For the wages of sin is death" <span class="text-purple-600 font-medium">(Rom 6:23)</span></p>
+     <p>"The soul who sins shall die" <span class="text-purple-600 font-medium">(Ezek 18:20)</span></p>
+     <p>"Your iniquities have made a separation between you and your God" <span class="text-purple-600 font-medium">(Isa 59:2)</span></p>
+     </blockquote>
+     </div>
+
+     <p>
+     This sounds serious... So where is the good news in all of this?
+     </p>
+
+     <p class="text-2xl font-bold text-center text-blue-900 py-4">
+     Right there in Jesus.
+     </p>
+
+     <p class="text-xl font-medium text-gray-800">
+     He came into the world, took upon himself the sin of every person, carried it to the cross, gave his life for us — and rose again.
+     What was impossible for us to fix, He took upon himself. He paid the price, though he himself was without sin — the perfect Son of God.
+     </p>
+
+     <p class="text-xl font-semibold text-blue-800">
+     So what remains for us?<br>
+     Surprisingly... nothing.
+     </p>
+
+     <p>
+     And no, this is not a joke. Grace is a gift — and a gift cannot be "completed" with works, because then it would cease to be a gift. It can only be received.
+     </p>
+
+     <p class="text-xl font-medium text-gray-800">
+     That's exactly why we speak today of the <strong>Good News</strong>. Because each of us who once lived in darkness has been called by name — and from that moment can enjoy complete freedom. And not just for a moment, but forever.
+     </p>
+
+     <p>
+     The Bible clearly shows how this gift can be received:
+     </p>
+
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 rounded-xl p-6 my-6">
+     <blockquote class="text-xl font-medium text-gray-700 italic text-center">
+     "If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved."
+     </blockquote>
+     <cite class="block text-center text-blue-700 font-semibold mt-4">(Rom 10:9-10)</cite>
+     </div>
+
+     <p class="text-2xl font-bold text-center text-blue-900 py-4">
+     And that's what's most beautiful about all of this, isn't it?
+     </p>
+     `,
+mainContent: `
+     <p class="text-xl font-medium text-gray-800">
+     "We are people who have discovered that life with God truly has meaning.
+     </p>
+
+     <p>
+     Gospel Days is a space we created from the heart – for everyone who seeks meaning, relationships, hope, and support.
+     </p>
+
+     <p>
+     We know that many of us have experienced difficult situations in life, disappointments, pain, discouragement. Maybe someone hurt you, or maybe you hurt someone. Maybe you felt judged, misunderstood, overlooked, or maybe shame or unforgiveness is destroying you.
+     </p>
+
+     <p class="text-xl font-semibold text-blue-800">
+     One thing we know for sure - God is love, He loves you. He accepts everyone who turns to Him, asks Him for help, He is available at every moment of life, amid our questions, weaknesses, and stories.
+     </p>
+
+     <p class="font-medium text-gray-800">
+     You don't need to be "religious" to talk with us.<br>
+     We don't judge. We listen.
+     </p>
+
+     <p>
+     We are part of a Christian community in Olsztyn – the Church <span class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-1 rounded-full font-semibold shadow-lg whitespace-nowrap">"Your&nbsp;Harbor"&nbsp;⚓</span>, which has been operating in Poland for many years and belongs to the broader family of Evangelical Churches.
+     </p>
+
+     <p>
+     You can come, ask a question, be silent, have some tea.
+     </p>
+
+     <p class="text-xl font-bold text-blue-900 text-center">
+     This is a harbor – for you."
+     </p>
+     `,
+prayerTitle: "You don't need to have all the answers",
+prayerContent: `
+     <p class="text-xl font-medium text-gray-800">
+     It's enough if you tell God:
+     </p>
+
+     <blockquote class="text-2xl md:text-3xl font-light text-blue-800 italic py-8">
+     "God, if you really exist, help me to know you"
+     </blockquote>
+
+     <p class="text-xl font-semibold text-gray-800">
+     And He will answer a sincere heart.
+     </p>
+     `,
+contactButton: "💬 Write to us",
+contactSubtext:
+"We'd be happy to answer your questions and chat. Click to message us on Messenger",
+testimonialsTitle: "Testimonies",
+videoTestimonialsTitle: "Video recordings",
+textTestimonialsTitle: "Text testimonies",
+watchOnYoutube: "Watch on YouTube",
+clickToOpen: "Click to open",
+monikasTestimony: "Monica's Testimony",
+watchOnDrive2: "Watch recording",
+clickToOpen2: "Click to open",
+watchOnDrive3: "Watch recording",
+clickToOpen3: "Click to open",
+videoTestimony2: "Anna's Testimony",
+videoTestimony3: "Aurora Jaworska's Testimony",
+videoPlaceholder: "Video recording",
+placeholderToFill: "Placeholder for recording to be added",
+textTestimonyPlaceholder: "Text testimony",
+textPlaceholderToFill: "Placeholder for testimony to be added",
+verseTitle: "Verse for today",
+verseButton: "🎲 Get a random quote",
+followTitle: "Follow us",
+bibleQuote:
+'"For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."',
+bibleQuoteRef: "– Ephesians 2:8-9",
+eventTimes: `
+     <div class="bg-gradient-to-r from-blue-100 to-sky-100 p-4 rounded-xl shadow-md border border-blue-200">
+     <div class="text-center">
+     <div class="text-blue-700 font-semibold text-lg mb-1">August 15</div>
+     <div class="text-2xl font-bold text-blue-900">3:00 PM</div>
+     </div>
+     </div>
+     <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-4 rounded-xl shadow-md border border-purple-200">
+     <div class="text-center">
+     <div class="text-purple-700 font-semibold text-lg mb-1">August 23-24</div>
+     <div class="text-2xl font-bold text-purple-900">11:00 AM</div>
+     </div>
+     </div>
+     `,
+krzysztofsTestimony: `"Just a few years ago, God was foreign to me and I only turned to him under the influence of inner fear, but when it passed, that hypocritical relationship also passed. I didn't need him because I was strong, immortal, I had other gods like money or substances, until I lost my strength for everything.<br><br>
+
+     Everything around me was no longer important to me. Neither my family nor myself, not to mention any relationships with others. At that time I also thought that maybe God doesn't exist after all, and I am such a bad person who destroys everything around him and hurts those closest to him, that it would be better to die than to suffer through life.<br><br>
+
+     I came to such a great wall that it seemed to me that it could not be broken by anyone and I even knew the date of my death. I felt great disappointment in myself as a father of two wonderful daughters, that I couldn't raise them the way I always said I wanted to.<br><br>
+
+     And then, probably for the first time in my life, thinking about my life, about how I was once happy with my family before I fell into addiction, I cried and talked to God. I told him that I no longer had the strength to live, I asked him to watch over my family and for my girls to understand that they would be better off without me.<br><br>
+
+     <strong>But nooooo - God found another solution and showed his love and grace for such a degenerate as me.</strong><br><br>
+
+     On October 8th, my guardian angel appeared on my life's path and from that day everything began to change - it was my wife's therapist who says about herself "I am Ewa, wife of Adam the pastor"<br><br>
+
+     Thanks to Ewa and the invitation to the Alma Marriage Weekend in 2023, my/our life began to change. We started communicating with each other, attending Your Harbor. Feelings of forgiveness, understanding and faith that I could still be happy began to appear in me.<br><br>
+
+     <strong>What is today, how our life looks, how we enjoy it with my Wife, is a path of miracles that has been going on for 20 months now.</strong><br><br>
+
+     I know that what happened on October 8th was not a coincidence. I remember Adam's words at Alma who said that despite our lack of faith in our marriage, they believe in us and someday I will tell others about it.<br><br>
+
+     And this is exactly that day - June 8th, 20 months later, Adam's prophecy is being fulfilled. <strong>I thank God for my new life and want to walk through it with him.</strong>"`,
+healingTestimony: `"A few years ago during horse riding training, I fell from a horse. Unfortunately, I fell on my face and damaged several cervical vertebrae. I was taken to the hospital where they put an orthopedic collar on me and gave me appropriate instructions – a lifelong ban on riding confirmed by three independent doctors. Orthopedists said that pain would accompany me for the rest of my life.<br><br>
+
+     Horse riding was not only my greatest passion, but also my lifestyle – I dreamed of becoming a trainer and having my own stable. The vertebrae dislocations caused such severe pain that every day was tremendous suffering. Whenever I could, I would lie down, use various forms of physiotherapy and take painkillers.<br><br>
+
+     When I met Jesus, I realized that He can take away all my suffering – no one wants to take away our pain more than He does! Since you're reading this, it means that's exactly what happened.<br><br>
+
+     <strong>One day during prayer in church, I went to the front, felt God's presence, and my body began to shake – not from fear, but from God's touch. From that moment, the pain in my neck completely disappeared!</strong> I can act again and enjoy life (though I won't get on a horse anymore 🤣).<br><br>
+
+     God really is the best doctor and wants to heal us more than anyone else!"`,
+mercedesTestimony: `"My name is Mercedes and today I want to tell you how the Lord rescued me from the deepest abyss and gave me a new life.<br><br>
+
+     For over 20 years I was immersed in occultism. I professionally practiced astrology and had over 600 clients worldwide. I was also a practicing Buddhist for 18 years. I didn't believe in God, I was an atheist and thought that what I was doing was a spiritual gift. Over time, however, I realized that this 'gift' was being used by Satan.<br><br>
+
+     Even though many people surrounded me, I felt increasingly empty, lost and worse. Being in Italy, I fell into such deep depression that I tried to take my own life several times. I went to a psychiatrist, was prescribed medication, but nothing helped.<br><br>
+
+     My sister, who was already a Christian, insisted: 'You must pray, read the Bible, go to church.' But I refused. I said I would never set foot in an evangelical church because people there shout and sing. Then she said: 'Fine — then at least read the Bible.' That's how I started, with great disbelief, out of desperation.<br><br>
+
+     My situation was critical. I heard voices that pushed me toward suicide. I even once tried to throw myself under a car. In the midst of all this, one day I got a call from my friend Marbella from Miami. She asked how I was doing, and I replied that I was doing badly, very badly.<br><br>
+
+     Deep in my heart I was looking for something. In Rome it was hard to find an evangelical church. The next day Marbella went to church, and when she came out she called me: 'Merce, I met a woman named Jackie. She lived in Italy, speaks Italian and has contacts there. I gave her your number.' There was no turning back — she gave her my contact.<br><br>
+
+     <strong>One of those days, when I was again trying to take my own life, what I call a miracle happened.</strong> My partner came just in time, opened the door and found me in the middle of this scene of despair. He laid me on the couch in the living room and went to get a glass of water. At that time my phone started ringing. It was an unknown number — a recording from Jackie. She said: 'Hi, I'm Jackie from the evangelical church in Miami. Your friend gave me your number to talk to you.'<br><br>
+
+     I answered as I could: 'Sorry, I can't talk... pray for me, this just happened to me.' To my surprise, she sent another recording: 'In the name of Jesus I command every spirit of death to release her immediately, in the power of Christ's blood.' I had never heard anything like that. Jackie kept sending me recordings, praying with authority, interceding for my life. And I cried, cried like never before. <strong>This was my first encounter with the Holy Spirit.</strong><br><br>
+
+     That same evening Jackie explained to me what to do, and a few hours later I accepted Jesus Christ as my Lord and Savior. From that day she taught me to pray, read the Bible and showed me how to start a new life.<br><br>
+
+     A few weeks later I came to Poland to visit my son. I felt I had to look for a church. In Italy I never managed to go because everything was very closed. But here, in Warsaw, I found the Spanish Church — the first church I ever visited in my life... and I've stayed there ever since.<br><br>
+
+     Later I returned to Italy, but I was no longer the same person. <strong>I decided to abandon everything that connected me to my old life.</strong> I burned all my astrology books — a huge library. Those I couldn't burn, I tore up with a knife so no one else could read them. I destroyed Buddhist altars, tore up and threw away Buddhism texts. I even hammered a small figurine - a statue I had at home.<br><br>
+
+     My partner thought I had gone crazy. But I knew what I was doing. I asked him: 'Do you want to get married, yes or no? I won't continue living in sin.' He said no. Then I replied: 'Ok. I'm leaving.' And I abandoned everything. Everything - home, partner, country, job. I had no idea how I would support myself... I acted radically.<br><br>
+
+     When I returned to Poland permanently, three days after moving into a small student apartment with my son, the Lord already had something prepared for me. A conference was held in the city, people came from the United States, and I participated in it at that Spanish church. There I experienced something that changed my life forever: <strong>spiritual deliverance.</strong><br><br>
+
+     During this deliverance I felt hell. This is not a metaphor. I felt its smell, heard voices, felt myself burning. It was a dry, unbearable heat. I couldn't speak or breathe — there was no air, it was dry... the only thing I wanted was water, for someone to pour water on me. I remember the pastor saying: 'She's burning, take off her sweater!' And indeed it was so. It was terrible, but crucial. I felt on my own skin where God had pulled me from.<br><br>
+
+     <strong>That day I understood that Jesus is living water.</strong> He is the only one who can quench this spiritual thirst, this eternal torment. I understood this deeply reading Luke 16, where the rich man begs Abraham for Lazarus to dip his finger in water and cool his tongue, because he is tormented in flames. I experienced this. And after that there was no turning back. What Jesus wanted to say, speaking of this thirst, is that He is water and we will never be thirsty again.<br><br>
+
+     <strong>When I accepted Jesus into my life I was cleansed of this pain and suffering.</strong> I also experienced healings which I will tell about in another part. I found my place, my church, calling, job and perfect apartment. I live close to family, I have wonderful friends. The blessings I experience every day are beyond all my imagination. <strong>God is truly good.</strong>"`,
+mercedesHealingTestimony: `"A few weeks ago I received the results of my mammography. I felt a burning sensation in my left breast and was very worried. I had a dream — I think the Lord warned me — and I insisted on getting a mammography, but they didn't speak English, so I repeatedly insisted that my son call... and he didn't call, until I finally went myself. When I received the report on April 7th, it was in Polish and I didn't understand anything, but the Lord already had everything perfectly arranged.<br><br>
+
+     My son works for a company that treats breast cancer with methods and technologies from the United States. He has undergone medical training, constantly talks with oncologists and knows the whole process well. He read the report and said: 'Mom, you have a tumor 15 millimeters in diameter.' He was very worried when he read it, because he knew exactly what it meant.<br><br>
+
+     The next day we went to the oncologist. She examined me physically and confirmed what the mammography showed: a palpable tumor on the left side. She said that for now we wouldn't do another mammography or ultrasound, but would go directly to biopsy. She explained that they would have to make an incision of about three centimeters, take a sample, and that they needed images from the mammography to know exactly where to intervene.<br><br>
+
+     I decided not to do the biopsy in those days because I had my ministry and an event at school - we were doing evangelization. My friend came to my house and we prayed and she asked: 'What are you going to do about the children's event?' I replied: 'I WILL GO and I won't do this biopsy until after this event! I don't want anything to steal my joy of painting for them and telling them about Jesus.' Pato, as always, said: 'Let's pray...', on Saturday the pastors continued praying, and I felt a current passing through my body... and I knew something miraculous had happened.<br><br>
+
+     Then I carried out the children's event on Monday, so finally on Tuesday I decided to go for the biopsy — I put God first.<br><br>
+
+     Joseph, my son, was with me and entered the room for them to do the biopsy. We had the report from the oncologist who felt the tumor, and they were ready. Joseph told me he saw the needle — it was very long — and that they already had the anesthesia prepared... to take the sample. <strong>The boy from the radiology lab saw the tumor on the mammography, but when they looked for it again to take the biopsy, the tumor had completely disappeared...</strong> The boy didn't understand what happened, and I told him: 'You are standing face to face with a miracle — Jesus lives and still performs miracles.' The confused boy ran to get his radiology supervisor, she came to examine me and also found nothing... <strong>She said to me: 'Ma'am, I don't know who prayed for you or how this happened, but it worked. Please get dressed and leave — you are healthy.'</strong> I said: 'Jesus still lives...' My son, moved, saw and heard everything, because God wanted to show him that He is the God of miracles."`,
+kamilUrbanowiczTestimony: `"At the beginning, I would like to break down a certain distance that sometimes arises between people who sit and people who speak, there arises such thinking that we think we are better, or that I am exalting myself. So from myself but I think also on behalf of others I will say that this is not the case at all, we are here only because we were once in a difficult situation, but someone helped us, so today we want to pass on the same help to others... well, I'll speak for myself, if you listen to my story you will see that I have no reason to feel better than anyone... and all my life I felt worse than everyone else.<br><br>
+
+     But everything from the beginning, because who we are starts from what our home was like, I come from a combination of a perfectionist military man that's exactly what my dad is and a pedantic clerk who was my mom. My childhood would seem happy, as an only child I had a lot of attention, I was a bit... or rather very hyperactive child. For most of my growing up I played probably all possible sports related to ball. Although maybe I don't look like that today 😊<br><br>
+
+     I didn't have much in common with God, although I received all the sacraments of the universal church, I actually only tried to find him for a while, when I was maybe 14 years old I went to church systematically and prayed as much as I could. Works and lack of improvement in my condition led me to frustration and I quickly abandoned this path.<br><br>
+
+     At first glance everything looked good, but if someone looked at me closely, they would see an insecure boy who is never at home and returns to it as late as possible, because he runs away from himself and from alcohol at home, don't get me wrong these weren't some huge parties, but living on a military estate alcohol at home was the norm.<br><br>
+
+     When the yard raises children sooner or later they will get into trouble, I somehow avoided bigger problems for a long time and as long as my main occupation was sport everything seemed fine.<br><br>
+
+     However, when I went to high school I realized that I probably wouldn't make a career, so I had more and more free time, which as a boy full of energy I didn't really see what to do with. Parties, alcohol and drugs quickly started, which I didn't even notice when they became my main occupation.<br><br>
+
+     I didn't even notice when, but actually my only occupation was smoking weed and from time to time something stronger came along. Unfortunately for my sensitivity and maybe hypersensitivity and toxic friends, drugs were like fuel to the fire. They led me into a swamp from which I couldn't get out and which pulled me deeper and deeper.<br><br>
+
+     <strong>Lack of self-worth, increasingly progressing schizophrenia, lack of purpose and hope led to increasingly frequent suicidal thoughts. Until one day I made the decision that I would no longer torment myself, surprisingly I was sober then, I ate all the psychotropic pills I had at home 6 times the lethal dose, I didn't want to be saved, I didn't write a farewell letter to anyone I didn't call anyone I was sure I had no one.</strong><br><br>
+
+     <strong>From the perspective of time, however, I see that God was already watching over me then because my Dad got up... for a need and heard that I was choking, unconscious I was choking on my own vomit.</strong><br><br>
+
+     You know that he almost never looked into my room?<br><br>
+
+     <strong>As a former firefighter, he called an ambulance and started resuscitating me and probably saved my life.</strong><br><br>
+
+     Sometimes God delivers from something immediately - I had it that way with drugs, alcohol and lies, my own lies and lies about what I am like. But I had to fight with cigarettes, it took me 3 years to quit them, I tried as hard as I could, sometimes I lasted a month, sometimes half a year and I kept coming back - the usual mechanism of addiction that each of you probably knows.<br><br>
+
+     However, I was a different person, although there were moments when I wanted to give up, when I returned to God's Word when I started to pray I saw how much Jesus sacrificed for me and that motivated me to give him this area, it motivated me to be a completely free person. I tried so many things - willpower, pills, I even took vacation to lock myself away, I thought that if I lasted a week it would be easier.<br><br>
+
+     <strong>After 3 years of struggle, I believe also with God's help, after another attempt this time I lasted and I don't smoke to this day.</strong><br><br>
+
+     I had a job, later after a few years, not even looking but only praying I found a second job from God, and later a third one where I work to this day. During these three years I also repaired relationships with my parents, and learned to respect and love them. My greatest desires were to go to prayer and to home group.<br><br>
+
+     <strong>If you had told me in 2012 that this is what my life would look like, I probably would have laughed at you and cursed you. Today I am grateful to Jesus because I am fully aware that it is only His merit, because I, through my own efforts, came to a completely different place.</strong><br><br>
+
+     Taking care of the relationship - that is my strength.<br><br>
+
+     When I started to get back on my feet, I looked at this word: <strong>Hopeless</strong> – deprived of chance, deprived of future, nothing will come of him anymore. It is a very strong word that we often overuse, I would like us, I would like you dear listener to stop using this difficult word in relation to other people from today. Because this label of being hopeless is so hard to cut off from yourself.<br><br>
+
+     <strong>Now I have hope and this hope is for everyone because in the book of Ezekiel 593-571 BC, that is 2,500 years ago, these words are written: 'The Lord says: I do not want the death of the sinner, but that he should turn and live'. Ezek 33:11</strong>"`,
+},
+};
+
+// Function definitions
+function toggleLanguage() {
+currentLanguage = currentLanguage === "pl" ? "en" : "pl";
+updateContent();
+}
+
+function getNewVerse() {
+const verseElement = document.getElementById("dailyVerse");
+const referenceElement = document.getElementById("verseReference");
+const container = document.getElementById("verseContainer");
+
+if (!verseElement || !referenceElement || !container) {
+console.error("Verse elements not found");
+return;
+}
+
+// Add fade effect
+container.style.opacity = "0.5";
+
+setTimeout(() => {
+const currentVerses = verses[currentLanguage];
+// Get a random verse instead of sequential
+const randomIndex = Math.floor(Math.random() * currentVerses.length);
+currentVerseIndex = randomIndex;
+const newVerse = currentVerses[currentVerseIndex];
+
+verseElement.textContent = `"${newVerse.text}"`;
+referenceElement.textContent = `– ${newVerse.reference}`;
+
+container.style.opacity = "1";
+}, 300);
+}
+
+// Update content based on current language
+function updateContent() {
+const t = translations[currentLanguage];
+
+// Basic elements
+document.getElementById("langButton").textContent = t.langButton;
+document.getElementById("eventLocation").textContent = t.eventLocation;
+document.getElementById("eventTimes").innerHTML = t.eventTimes;
+document.getElementById("featuredVerse").textContent = t.featuredVerse;
+document.getElementById("featuredVerseRef").textContent =
+t.featuredVerseRef;
+document.getElementById("mainContent").innerHTML = t.mainContent;
+document.getElementById("prayerTitle").textContent = t.prayerTitle;
+document.getElementById("prayerContent").innerHTML = t.prayerContent;
+document.getElementById("testimonialsTitle").textContent =
+t.testimonialsTitle;
+document.getElementById("verseTitle").textContent = t.verseTitle;
+document.getElementById("verseButton").textContent = t.verseButton;
+document.getElementById("followTitle").textContent = t.followTitle;
+document.getElementById("bibleQuote").textContent = t.bibleQuote;
+document.getElementById("bibleQuoteRef").textContent = t.bibleQuoteRef;
+document.getElementById("contactButton").textContent = t.contactButton;
+document.getElementById("contactSubtext").textContent =
+t.contactSubtext;
+
+// Gospel section
+if (document.getElementById("gospelTitle")) {
+document.getElementById("gospelTitle").textContent = t.gospelTitle;
+}
+if (document.getElementById("gospelContent")) {
+document.getElementById("gospelContent").innerHTML = t.gospelContent;
+}
+
+// Update testimonials section
+document.getElementById("videoTestimonialsTitle").textContent =
+t.videoTestimonialsTitle;
+document.getElementById("watchOnYoutube1").textContent =
+t.watchOnYoutube;
+document.getElementById("clickToOpen1").textContent = t.clickToOpen;
+document.getElementById("monikasTestimony").textContent =
+t.monikasTestimony;
+document.getElementById("watchOnDrive2").textContent = t.watchOnDrive2;
+document.getElementById("clickToOpen2").textContent = t.clickToOpen2;
+document.getElementById("watchOnDrive3").textContent = t.watchOnDrive3;
+document.getElementById("clickToOpen3").textContent = t.clickToOpen3;
+document.getElementById("videoTestimony2").textContent =
+t.videoTestimony2;
+document.getElementById("videoTestimony3").textContent =
+t.videoTestimony3;
+
+// Update testimonies
+if (document.getElementById("krzysztofsTestimony")) {
+document.getElementById("krzysztofsTestimony").innerHTML =
+t.krzysztofsTestimony;
+}
+if (document.getElementById("healingTestimony")) {
+document.getElementById("healingTestimony").innerHTML =
+t.healingTestimony;
+}
+if (document.getElementById("mercedesTestimony")) {
+document.getElementById("mercedesTestimony").innerHTML =
+t.mercedesTestimony;
+}
+if (document.getElementById("mercedesHealingTestimony")) {
+document.getElementById("mercedesHealingTestimony").innerHTML =
+t.mercedesHealingTestimony;
+}
+if (document.getElementById("karolKoprowskaTestimony")) {
+document.getElementById("karolKoprowskaTestimony").innerHTML =
+t.karolKoprowskaTestimony;
+}
+if (document.getElementById("kamilUrbanowiczTestimony")) {
+document.getElementById("kamilUrbanowiczTestimony").innerHTML =
+t.kamilUrbanowiczTestimony;
+}
+if (document.getElementById("spiritualJourneyTestimony")) {
+document.getElementById("spiritualJourneyTestimony").innerHTML =
+t.spiritualJourneyTestimony;
+}
+if (document.getElementById("kasiaBobowikTestimony")) {
+document.getElementById("kasiaBobowikTestimony").innerHTML =
+t.kasiaBobowikTestimony;
+}
+
+// Update the random verse as well
+updateVerse();
+}
+
+// Bible verses array - pozytywne cytaty
+const verses = {
+pl: [
+{
+text: "Bóg jest miłością, a kto trwa w miłości, trwa w Bogu, a Bóg trwa w nim.",
+reference: "1 Jana 4:16",
+},
+{
+text: "Przyjdźcie do mnie wszyscy, którzy jesteście spracowani i obciążeni, a ja wam dam odpocznienie.",
+reference: "Mateusza 11:28",
+},
+{
+text: "Pokój zostawiam wam, pokój mój daję wam. Nie tak jak daje świat, ja wam daję.",
+reference: "Jana 14:27",
+},
+{
+text: "Wszystko mogę w tym, który mnie wzmacnia.",
+reference: "Filipian 4:13",
+},
+{
+text: "Pan jest moim pasterzem, nie będę potrzebować.",
+reference: "Psalm 23:1",
+},
+{
+text: "Nie bój się, bo ja jestem z tobą; nie lękaj się, bo ja jestem twoim Bogiem.",
+reference: "Izajasza 41:10",
+},
+{
+text: "Tak bowiem Bóg umiłował świat, że dał swego jednorodzonego Syna.",
+reference: "Jana 3:16",
+},
+{
+text: "Zaufaj Panu z całego serca i nie polegaj na własnym rozumie.",
+reference: "Przysłów 3:5",
+},
+{
+text: "Rzućcie na niego wszystkie wasze troski, bo on troszczy się o was.",
+reference: "1 Piotra 5:7",
+},
+{
+text: "Radujcie się zawsze w Panu! Jeszcze raz mówię: radujcie się!",
+reference: "Filipian 4:4",
+},
+{
+text: "Jeśli wyznamy nasze grzechy, on jest wierny i sprawiedliwy, aby nam przebaczyć grzechy.",
+reference: "1 Jana 1:9",
+},
+{
+text: "Szukajcie najpierw królestwa Bożego i jego sprawiedliwości, a wszystko inne będzie wam dodane.",
+reference: "Mateusza 6:33",
+},
+{
+text: "Wiemy, że wszystko współdziała ku dobremu tym, którzy miłują Boga.",
+reference: "Rzymian 8:28",
+},
+{
+text: "Ja jestem drogą, prawdą i życiem. Nikt nie przychodzi do Ojca inaczej jak tylko przeze mnie.",
+reference: "Jana 14:6",
+},
+{
+text: "Błogosławieni czystego serca, albowiem oni Boga oglądać będą.",
+reference: "Mateusza 5:8",
+},
+{
+text: "Miłość cierpliwa jest, łaskawa jest. Miłość nie zazdrości, nie szuka poklasku.",
+reference: "1 Koryntian 13:4",
+},
+{
+text: "Oto stoję u drzwi i kołaczę. Jeśli kto usłyszy mój głos i otworzy drzwi, wejdę do niego.",
+reference: "Objawienie 3:20",
+},
+{
+text: "Błogosławieni, którzy płaczą, albowiem oni będą pocieszeni.",
+reference: "Mateusza 5:4",
+},
+{
+text: "Łaska Pana Jezusa Chrystusa, miłość Boga i społeczność Ducha Świętego niech będzie z wami wszystkimi.",
+reference: "2 Koryntian 13:13",
+},
+{
+text: "Przez łaskę bowiem jesteście zbawieni przez wiarę, i to nie z was - to dar Boga.",
+reference: "Efezjan 2:8",
+},
+{
+text: "Błogosławieni pokoju czyniący, albowiem oni synami Bożymi będą nazwani.",
+reference: "Mateusza 5:9",
+},
+{
+text: "Weselcie się i radujcie, albowiem wielka jest wasza nagroda w niebie.",
+reference: "Mateusza 5:12",
+},
+{
+text: "Jesteście światłością świata. Nie może się ukryć miasto położone na górze.",
+reference: "Mateusza 5:14",
+},
+{
+text: "Tak niech świeci wasze światło przed ludźmi, aby widzieli wasze dobre uczynki.",
+reference: "Mateusza 5:16",
+},
+{
+text: "Proście, a będzie wam dane; szukajcie, a znajdziecie; kołaczcie, a będzie wam otwarte.",
+reference: "Mateusza 7:7",
+},
+{
+text: "Każdy, kto prosi, otrzymuje; kto szuka, znajduje; a kołaczącemu będzie otwarte.",
+reference: "Mateusza 7:8",
+},
+{
+text: "Ja jestem z wami po wszystkie dni aż do skończenia świata.",
+reference: "Mateusza 28:20",
+},
+{
+text: "Wszystko jest możliwe temu, kto wierzy.",
+reference: "Marka 9:23",
+},
+{
+text: "Nie przyszedłem powołać sprawiedliwych, lecz grzeszników do pokuty.",
+reference: "Marka 2:17",
+},
+{
+text: "Chwała Bogu na wysokości, a na ziemi pokój ludziom jego upodobania.",
+reference: "Łukasza 2:14",
+},
+{
+text: "Radość będzie w niebie z jednego grzesznika, który czyni pokutę.",
+reference: "Łukasza 15:7",
+},
+{
+text: "Poznajcie prawdę, a prawda was wyswobodzi.",
+reference: "Jana 8:32",
+},
+{
+text: "Ja przyszedłem, aby miały życie i miały je w obfitości.",
+reference: "Jana 10:10",
+},
+{
+text: "Ja jestem zmartwychwstaniem i życiem. Kto we mnie wierzy, choćby umarł, żyć będzie.",
+reference: "Jana 11:25",
+},
+{
+text: "W domu Ojca mego jest mieszkań wiele.",
+reference: "Jana 14:2",
+},
+{
+text: "Nie trwóżcie się serca wasze. Wierzcie w Boga i we mnie wierzcie.",
+reference: "Jana 14:1",
+},
+{
+text: "Większej miłości nikt nie ma nad tę, jak gdy kto życie swoje kładzie za przyjaciół swoich.",
+reference: "Jana 15:13",
+},
+{
+text: "To wam przykazuję, abyście się wzajemnie miłowali.",
+reference: "Jana 15:17",
+},
+{
+text: "Pokój mój daję wam. Niech się nie trwoży serce wasze ani się lęka.",
+reference: "Jana 14:27",
+},
+{
+text: "Błogosławiony, kto nie widział, a uwierzył.",
+reference: "Jana 20:29",
+},
+{
+text: "Nie wstydźcie się Ewangelii, albowiem jest mocą Bożą ku zbawieniu.",
+reference: "Rzymian 1:16",
+},
+{
+text: "Jeśli Bóg za nami, któż przeciwko nam?",
+reference: "Rzymian 8:31",
+},
+{
+text: "Nic nas nie może odłączyć od miłości Bożej, która jest w Chrystusie Jezusie.",
+reference: "Rzymian 8:39",
+},
+{
+text: "Bóg wybrał to, co słabe w świecie, aby zawstydzić to, co mocne.",
+reference: "1 Koryntian 1:27",
+},
+{
+text: "Oko nie widziało, ucho nie słyszało, co Bóg przygotował tym, którzy go miłują.",
+reference: "1 Koryntian 2:9",
+},
+{
+text: "Jesteście świątynią Boga, a Duch Boży mieszka w was.",
+reference: "1 Koryntian 3:16",
+},
+{
+text: "Miłość nigdy nie ustaje.",
+reference: "1 Koryntian 13:8",
+},
+{
+text: "Teraz trwają wiara, nadzieja, miłość - te trzy; z nich zaś największa jest miłość.",
+reference: "1 Koryntian 13:13",
+},
+{
+text: "Jeśli kto jest w Chrystusie, nowym jest stworzeniem.",
+reference: "2 Koryntian 5:17",
+},
+{
+text: "Wystarczy ci mojej łaski, albowiem moc w słabości się doskonali.",
+reference: "2 Koryntian 12:9",
+},
+{
+text: "Owocem zaś Ducha jest: miłość, radość, pokój, cierpliwość, łaskawość, dobroć.",
+reference: "Galacjan 5:22",
+},
+{
+text: "Jeden drugiego brzemiona noście, a tak wypełnicie zakon Chrystusowy.",
+reference: "Galacjan 6:2",
+},
+{
+text: "Błogosławiony Bóg i Ojciec Pana naszego Jezusa Chrystusa, który nas pobłogosławił.",
+reference: "Efezjan 1:3",
+},
+{
+text: "Jesteśmy jego dziełem, stworzeni w Chrystusie Jezusie do dobrych uczynków.",
+reference: "Efezjan 2:10",
+},
+{
+text: "Niech żadne słowo złe z ust waszych nie wychodzi, lecz tylko dobre.",
+reference: "Efezjan 4:29",
+},
+{
+text: "Bądźcie dla siebie wzajemnie łaskawi, miłosierni, przebaczając sobie nawzajem.",
+reference: "Efezjan 4:32",
+},
+{
+text: "Postępujcie w miłości, jak i Chrystus was umiłował.",
+reference: "Efezjan 5:2",
+},
+{
+text: "Radujcie się w Panu zawsze; jeszcze raz mówię: radujcie się!",
+reference: "Filipian 4:4",
+},
+{
+text: "Pokój Boży, który przewyższa wszelki rozum, będzie strzegł serc waszych.",
+reference: "Filipian 4:7",
+},
+{
+text: "Bóg mój zaś zaspokoi wszelką potrzebę waszą według bogactwa swego.",
+reference: "Filipian 4:19",
+},
+{
+text: "Dziękczyńcie we wszystkim, albowiem taka jest wola Boża w Chrystusie Jezusie.",
+reference: "1 Tesaloniczan 5:18",
+},
+{
+text: "Wierny jest ten, który was powołuje, on też to uczyni.",
+reference: "1 Tesaloniczan 5:24",
+},
+{
+text: "Bóg nie dał nam ducha bojaźni, lecz mocy, miłości i trzeźwości.",
+reference: "2 Tymoteusza 1:7",
+},
+{
+text: "Przystąpmy z ufnością do tronu łaski, abyśmy otrzymali miłosierdzie.",
+reference: "Hebrajczyków 4:16",
+},
+{
+text: "Jezus Chrystus wczoraj i dziś, ten sam i na wieki.",
+reference: "Hebrajczyków 13:8",
+},
+{
+text: "Każdy dar doskonały zstępuje z góry od Ojca świateł.",
+reference: "Jakuba 1:17",
+},
+{
+text: "Przybliżcie się do Boga, a przybliży się do was.",
+reference: "Jakuba 4:8",
+},
+{
+text: "Wszystkie troski wasze złóżcie na niego, albowiem on się o was troszczy.",
+reference: "1 Piotra 5:7",
+},
+{
+text: "Jego boska moc dała nam wszystko, co należy do życia i pobożności.",
+reference: "2 Piotra 1:3",
+},
+{
+text: "Jeśli chodzimy w światłości, mamy społeczność między sobą.",
+reference: "1 Jana 1:7",
+},
+{
+text: "Kto miłuje brata swego, w światłości trwa.",
+reference: "1 Jana 2:10",
+},
+{
+text: "Patrzcie, jaką miłość okazał nam Ojciec, abyśmy byli nazwani dziećmi Bożymi.",
+reference: "1 Jana 3:1",
+},
+{
+text: "W tym poznaliśmy miłość, że on życie swoje za nas położył.",
+reference: "1 Jana 3:16",
+},
+{
+text: "Jeśli serce nasze nas nie potępia, ufność mamy u Boga.",
+reference: "1 Jana 3:21",
+},
+{
+text: "Większy jest ten, który w was jest, niż ten, który w świecie.",
+reference: "1 Jana 4:4",
+},
+{
+text: "My miłujemy, bo on pierwszy nas umiłował.",
+reference: "1 Jana 4:19",
+},
+{
+text: "To jest zwycięstwo, które zwyciężyło świat - wiara nasza.",
+reference: "1 Jana 5:4",
+},
+{
+text: "Oto stoję u drzwi i kołaczę. Jeśli kto usłyszy głos mój i otworzy drzwi, wejdę do niego.",
+reference: "Objawienie 3:20",
+},
+{
+text: "Oto czynię wszystko nowe.",
+reference: "Objawienie 21:5",
+},
+],
+en: [
+{
+text: "God is love, and whoever abides in love abides in God, and God abides in him.",
+reference: "1 John 4:16",
+},
+{
+text: "Come to me, all who labor and are heavy laden, and I will give you rest.",
+reference: "Matthew 11:28",
+},
+{
+text: "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you.",
+reference: "John 14:27",
+},
+{
+text: "I can do all things through him who strengthens me.",
+reference: "Philippians 4:13",
+},
+{
+text: "The Lord is my shepherd; I shall not want.",
+reference: "Psalm 23:1",
+},
+{
+text: "Fear not, for I am with you; be not dismayed, for I am your God.",
+reference: "Isaiah 41:10",
+},
+{
+text: "For God so loved the world, that he gave his only Son.",
+reference: "John 3:16",
+},
+{
+text: "Trust in the Lord with all your heart, and do not lean on your own understanding.",
+reference: "Proverbs 3:5",
+},
+{
+text: "Cast all your anxieties on him, because he cares for you.",
+reference: "1 Peter 5:7",
+},
+{
+text: "Rejoice in the Lord always; again I will say, rejoice!",
+reference: "Philippians 4:4",
+},
+{
+text: "If we confess our sins, he is faithful and just to forgive us our sins.",
+reference: "1 John 1:9",
+},
+{
+text: "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+reference: "Matthew 6:33",
+},
+{
+text: "And we know that for those who love God all things work together for good.",
+reference: "Romans 8:28",
+},
+{
+text: "I am the way, and the truth, and the life. No one comes to the Father except through me.",
+reference: "John 14:6",
+},
+{
+text: "Blessed are the pure in heart, for they shall see God.",
+reference: "Matthew 5:8",
+},
+{
+text: "Love is patient and kind; love does not envy or boast.",
+reference: "1 Corinthians 13:4",
+},
+{
+text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him.",
+reference: "Revelation 3:20",
+},
+{
+text: "Blessed are those who mourn, for they shall be comforted.",
+reference: "Matthew 5:4",
+},
+{
+text: "The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.",
+reference: "2 Corinthians 13:14",
+},
+{
+text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God.",
+reference: "Ephesians 2:8",
+},
+{
+text: "Blessed are the peacemakers, for they shall be called sons of God.",
+reference: "Matthew 5:9",
+},
+{
+text: "Rejoice and be glad, for your reward is great in heaven.",
+reference: "Matthew 5:12",
+},
+{
+text: "You are the light of the world. A city set on a hill cannot be hidden.",
+reference: "Matthew 5:14",
+},
+{
+text: "In the same way, let your light shine before others, so that they may see your good works.",
+reference: "Matthew 5:16",
+},
+{
+text: "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.",
+reference: "Matthew 7:7",
+},
+{
+text: "For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened.",
+reference: "Matthew 7:8",
+},
+{
+text: "And behold, I am with you always, to the end of the age.",
+reference: "Matthew 28:20",
+},
+{
+text: "All things are possible for one who believes.",
+reference: "Mark 9:23",
+},
+{
+text: "I came not to call the righteous, but sinners to repentance.",
+reference: "Mark 2:17",
+},
+{
+text: "Glory to God in the highest, and on earth peace among those with whom he is pleased!",
+reference: "Luke 2:14",
+},
+{
+text: "There will be more joy in heaven over one sinner who repents.",
+reference: "Luke 15:7",
+},
+{
+text: "And you will know the truth, and the truth will set you free.",
+reference: "John 8:32",
+},
+{
+text: "I came that they may have life and have it abundantly.",
+reference: "John 10:10",
+},
+{
+text: "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live.",
+reference: "John 11:25",
+},
+{
+text: "In my Father's house are many rooms.",
+reference: "John 14:2",
+},
+{
+text: "Let not your hearts be troubled. Believe in God; believe also in me.",
+reference: "John 14:1",
+},
+{
+text: "Greater love has no one than this, that someone lay down his life for his friends.",
+reference: "John 15:13",
+},
+{
+text: "These things I command you, so that you will love one another.",
+reference: "John 15:17",
+},
+{
+text: "Peace I leave with you; my peace I give to you. Let not your hearts be troubled, neither let them be afraid.",
+reference: "John 14:27",
+},
+{
+text: "Blessed are those who have not seen and yet have believed.",
+reference: "John 20:29",
+},
+{
+text: "For I am not ashamed of the gospel, for it is the power of God for salvation.",
+reference: "Romans 1:16",
+},
+{
+text: "If God is for us, who can be against us?",
+reference: "Romans 8:31",
+},
+{
+text: "Nothing will be able to separate us from the love of God in Christ Jesus our Lord.",
+reference: "Romans 8:39",
+},
+{
+text: "But God chose what is weak in the world to shame the strong.",
+reference: "1 Corinthians 1:27",
+},
+{
+text: "But, as it is written, 'What no eye has seen, nor ear heard, God has prepared for those who love him.'",
+reference: "1 Corinthians 2:9",
+},
+{
+text: "Do you not know that you are God's temple and that God's Spirit dwells in you?",
+reference: "1 Corinthians 3:16",
+},
+{
+text: "Love never ends.",
+reference: "1 Corinthians 13:8",
+},
+{
+text: "So now faith, hope, and love abide, these three; but the greatest of these is love.",
+reference: "1 Corinthians 13:13",
+},
+{
+text: "Therefore, if anyone is in Christ, he is a new creation.",
+reference: "2 Corinthians 5:17",
+},
+{
+text: "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.'",
+reference: "2 Corinthians 12:9",
+},
+{
+text: "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness.",
+reference: "Galatians 5:22",
+},
+{
+text: "Bear one another's burdens, and so fulfill the law of Christ.",
+reference: "Galatians 6:2",
+},
+{
+text: "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us.",
+reference: "Ephesians 1:3",
+},
+{
+text: "For we are his workmanship, created in Christ Jesus for good works.",
+reference: "Ephesians 2:10",
+},
+{
+text: "Let no corrupting talk come out of your mouths, but only such as is good.",
+reference: "Ephesians 4:29",
+},
+{
+text: "Be kind to one another, tenderhearted, forgiving one another.",
+reference: "Ephesians 4:32",
+},
+{
+text: "And walk in love, as Christ loved us.",
+reference: "Ephesians 5:2",
+},
+{
+text: "Rejoice in the Lord always; again I will say, rejoice!",
+reference: "Philippians 4:4",
+},
+{
+text: "And the peace of God, which surpasses all understanding, will guard your hearts.",
+reference: "Philippians 4:7",
+},
+{
+text: "And my God will supply every need of yours according to his riches in glory.",
+reference: "Philippians 4:19",
+},
+{
+text: "Give thanks in all circumstances; for this is the will of God in Christ Jesus.",
+reference: "1 Thessalonians 5:18",
+},
+{
+text: "He who calls you is faithful; he will surely do it.",
+reference: "1 Thessalonians 5:24",
+},
+{
+text: "For God gave us a spirit not of fear but of power and love and self-control.",
+reference: "2 Timothy 1:7",
+},
+{
+text: "Let us then with confidence draw near to the throne of grace, that we may receive mercy.",
+reference: "Hebrews 4:16",
+},
+{
+text: "Jesus Christ is the same yesterday and today and forever.",
+reference: "Hebrews 13:8",
+},
+{
+text: "Every good gift and every perfect gift is from above, coming down from the Father of lights.",
+reference: "James 1:17",
+},
+{
+text: "Draw near to God, and he will draw near to you.",
+reference: "James 4:8",
+},
+{
+text: "Casting all your anxieties on him, because he cares for you.",
+reference: "1 Peter 5:7",
+},
+{
+text: "His divine power has granted to us all things that pertain to life and godliness.",
+reference: "2 Peter 1:3",
+},
+{
+text: "But if we walk in the light, as he is in the light, we have fellowship with one another.",
+reference: "1 John 1:7",
+},
+{
+text: "Whoever loves his brother abides in the light.",
+reference: "1 John 2:10",
+},
+{
+text: "See what kind of love the Father has given to us, that we should be called children of God.",
+reference: "1 John 3:1",
+},
+{
+text: "By this we know love, that he laid down his life for us.",
+reference: "1 John 3:16",
+},
+{
+text: "If our heart does not condemn us, we have confidence before God.",
+reference: "1 John 3:21",
+},
+{
+text: "He who is in you is greater than he who is in the world.",
+reference: "1 John 4:4",
+},
+{
+text: "We love because he first loved us.",
+reference: "1 John 4:19",
+},
+{
+text: "For this is the victory that has overcome the world—our faith.",
+reference: "1 John 5:4",
+},
+{
+text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him.",
+reference: "Revelation 3:20",
+},
+{
+text: "And he who was seated on the throne said, 'Behold, I am making all things new.'",
+reference: "Revelation 21:5",
+},
+],
+};
+
+// Update verse when language changes
+function updateVerse() {
+const verseElement = document.getElementById("dailyVerse");
+const referenceElement = document.getElementById("verseReference");
+
+const currentVerses = verses[currentLanguage];
+// Keep the same verse index but switch language
+if (currentVerseIndex >= currentVerses.length) {
+currentVerseIndex = 0;
+}
+const currentVerse = currentVerses[currentVerseIndex];
+
+verseElement.textContent = `"${currentVerse.text}"`;
+referenceElement.textContent = `– ${currentVerse.reference}`;
+}
+
+// Initialize with random verse on page load
+window.addEventListener("load", () => {
+const currentVerses = verses[currentLanguage];
+currentVerseIndex = Math.floor(Math.random() * currentVerses.length);
+const initialVerse = currentVerses[currentVerseIndex];
+
+document.getElementById(
+"dailyVerse"
+).textContent = `"${initialVerse.text}"`;
+document.getElementById(
+"verseReference"
+).textContent = `– ${initialVerse.reference}`;
+});
+</script>
+<script>
+(function () {
+function c() {
+var b = a.contentDocument || a.contentWindow.document;
+if (b) {
+var d = b.createElement("script");
+d.innerHTML =
+"window.__CF$cv$params={r:'97291911c0e89e03',t:'MTc1NTc2ODQ4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+b.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+if (document.body) {
+var a = document.createElement("iframe");
+a.height = 1;
+a.width = 1;
+a.style.position = "absolute";
+a.style.top = 0;
+a.style.left = 0;
+a.style.border = "none";
+a.style.visibility = "hidden";
+document.body.appendChild(a);
+if ("loading" !== document.readyState) c();
+else if (window.addEventListener)
+document.addEventListener("DOMContentLoaded", c);
+else {
+var e = document.onreadystatechange || function () {};
+document.onreadystatechange = function (b) {
+e(b);
+"loading" !== document.readyState &&
+((document.onreadystatechange = e), c());
+};
+}
+}
+})();
+</script>
+</body>
 </html>
