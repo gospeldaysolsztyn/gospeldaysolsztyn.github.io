@@ -223,6 +223,10 @@ blockquote {
 .smooth-scroll {
   scroll-behavior: smooth;
 }
+/* deep-link targets shouldn't butt against the top of the viewport */
+[id] {
+  scroll-margin-top: 1.5rem;
+}
 
 a:focus-visible,
 button:focus-visible {
@@ -578,7 +582,7 @@ A On odpowie na szczere serce.
 </section>
 
 <!-- Testimonials Section -->
-<section class="mb-16">
+<section id="swiadectwa" class="mb-16">
 <h2
 id="testimonialsTitle"
 class="text-4xl font-bold text-center mb-8 gradient-text"
@@ -3176,6 +3180,17 @@ try {
 updateContent();
 } catch (err) {
 console.error("updateContent failed on load", err);
+}
+// Rendering above swaps section contents and changes their heights, so
+// the browser's initial jump to #hash can land in the wrong place.
+// Re-apply the target once the final layout exists.
+if (location.hash) {
+var target = document.getElementById(location.hash.slice(1));
+if (target) {
+requestAnimationFrame(function () {
+target.scrollIntoView({ behavior: "auto", block: "start" });
+});
+}
 }
 });
 
